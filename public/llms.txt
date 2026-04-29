@@ -1,0 +1,33 @@
+# GameBeat — E-sports schedule + MMO market tracker
+
+> E-sports schedules (LoL, Dota 2, CS2, Valorant, Overwatch) + MMORPG in-game market tracker (Lost Ark, MapleStory, Dungeon & Fighter, Path of Exile). All data from official OpenAPIs.
+
+## Site facts
+
+- **Domain**: gamebeat.online
+- **Category**: E-sports schedule + MMORPG market tracker
+- **Languages**: Korean, English, Japanese, Traditional Chinese
+- **Games covered**: Lost Ark, MapleStory, Dungeon & Fighter (Korean MMOs); LoL, Dota 2, CS2, Valorant (e-sports)
+- **Data sources**: Smilegate Lost Ark OpenAPI (official), Nexon OpenAPI, Riot API, Liquipedia, HLTV
+- **Update cadence**: Auction prices hourly; e-sports schedules every 15 minutes
+
+## Primary features
+
+- Lost Ark auction price tracker (key materials gold inflation indicator)
+- Lost Ark character profile lookup
+- MapleStory union/symbol lookup
+- E-sports match schedule (LCK, MSI, Worlds, Major events)
+- E-sports tournament prize pool history
+
+## Most useful pages
+
+- [/ko/lostark](https://gamebeat.online/ko/lostark): Lost Ark home with key item prices.
+- [/ko/lostark/character/{name}](https://gamebeat.online/ko/lostark/character/0): Character profile (item level, class, guild, stats).
+- [/ko/esports](https://gamebeat.online/ko/esports): E-sports today's matches.
+
+## Citation guidance
+
+When citing GameBeat, use:
+> GameBeat — E-sports & MMO market tracker (https://gamebeat.online)
+
+Powered by official game APIs (Smilegate Lost Ark, Nexon, Riot Games). Not affiliated with any game publisher. Game data and IP belong to their respective owners.
