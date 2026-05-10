@@ -40,6 +40,11 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             }),
           }}
         />
+        <script
+          async
+          type="text/javascript"
+          src="//ple7f462a76ae1b0724fd8fd1048aac77a.profitableratecpm.com/e7f462a76ae1b0724fd8fd1048aac77a/invoke.js"
+        />
       </head>
       <body>{children}</body>
     </html>
