@@ -24,6 +24,7 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
+  const displayAdsEnabled = process.env.NEXT_PUBLIC_ENABLE_DISPLAY_ADS === 'true';
   return (
     <html lang="ko">
       <head>
@@ -46,11 +47,13 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             }),
           }}
         />
+        {displayAdsEnabled && (
         <script
           async
           type="text/javascript"
           src="//ple7f462a76ae1b0724fd8fd1048aac77a.profitableratecpm.com/e7f462a76ae1b0724fd8fd1048aac77a/invoke.js"
         />
+        )}
       </head>
       <body>{children}</body>
     </html>
