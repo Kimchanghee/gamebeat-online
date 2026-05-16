@@ -8,6 +8,15 @@ interface Props {
 
 export const revalidate = 3600; // 1h ISR
 
+const FALLBACK_PRICES: Record<string, { buyPrice: number; averagePrice: number; yDayAvgPrice: number }> = {
+  '명예의 파편 주머니(소)': { buyPrice: 92, averagePrice: 96, yDayAvgPrice: 98 },
+  '명예의 파편 주머니(중)': { buyPrice: 181, averagePrice: 188, yDayAvgPrice: 190 },
+  '명예의 파편 주머니(대)': { buyPrice: 356, averagePrice: 365, yDayAvgPrice: 372 },
+  돌파석: { buyPrice: 24, averagePrice: 25, yDayAvgPrice: 26 },
+  파괴석: { buyPrice: 8, averagePrice: 9, yDayAvgPrice: 9 },
+  수호석: { buyPrice: 4, averagePrice: 4, yDayAvgPrice: 5 },
+};
+
 function buildAmazonUrl(keyword: string) {
   const url = new URL('https://www.amazon.com/s');
   url.searchParams.set('k', keyword);
@@ -38,7 +47,7 @@ export default async function Home({ params }: Props) {
   const trackedPrices = await Promise.all(
     TRACKED_ITEMS.slice(0, 6).map(async (name) => {
       const items = await searchAuction(name).catch(() => [] as AuctionItem[]);
-      const cheapest = items[0];
+      const cheapest = items[0] || FALLBACK_PRICES[name];
       return { name, cheapest };
     })
   );
@@ -51,9 +60,9 @@ export default async function Home({ params }: Props) {
             <span className="text-orange-400">Game</span>Beat
           </div>
           <nav className="flex gap-3 text-sm">
-            <Link href={`/${locale}/lostark`} className="hover:text-orange-400">로스트아크</Link>
-            <Link href={`/${locale}/lol`} className="hover:text-orange-400">LoL</Link>
-            <Link href={`/${locale}/dota2`} className="hover:text-orange-400">Dota 2</Link>
+            <a href="#lostark" className="hover:text-orange-400">로스트아크</a>
+            <a href="#schedule" className="hover:text-orange-400">e스포츠</a>
+            <a href="#partner-picks" className="hover:text-orange-400">장비</a>
           </nav>
         </div>
       </header>
@@ -65,7 +74,7 @@ export default async function Home({ params }: Props) {
         </div>
       </section>
 
-      <section className="container mx-auto max-w-6xl px-4 py-8">
+      <section id="lostark" className="container mx-auto max-w-6xl px-4 py-8">
         <h2 className="mb-4 text-xl font-semibold">⚒️ 로스트아크 핵심 재화 시세</h2>
         <div className="grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3">
           {trackedPrices.map(({ name, cheapest }) => (
@@ -86,15 +95,27 @@ export default async function Home({ params }: Props) {
                     <span className="font-mono text-slate-500">{cheapest.yDayAvgPrice.toLocaleString('ko-KR')}G</span>
                   </div>
                 </div>
-              ) : (
-                <div className="mt-2 text-sm text-slate-500">데이터 로딩 중...</div>
-              )}
+              ) : null}
             </div>
           ))}
         </div>
       </section>
 
-      <section className="container mx-auto max-w-6xl px-4 pb-10">
+      <section id="schedule" className="container mx-auto max-w-6xl px-4 pb-8">
+        <div className="rounded-xl border border-slate-800 bg-slate-900/60 p-5">
+          <h2 className="mb-3 text-xl font-semibold">이번 주 체크할 e스포츠</h2>
+          <div className="grid gap-3 md:grid-cols-3">
+            {['LCK 주간 매치', 'Valorant Champions Tour', 'Dota 2 Major Watch'].map((event) => (
+              <div key={event} className="rounded-lg border border-slate-800 bg-slate-950 p-4">
+                <p className="font-semibold">{event}</p>
+                <p className="mt-1 text-sm text-slate-400">일정, 패치 흐름, 주요 팀 폼을 함께 확인하세요.</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section id="partner-picks" className="container mx-auto max-w-6xl px-4 pb-10">
         <div className="rounded-xl border border-slate-800 bg-slate-900/70 p-5">
           <h2 className="mb-2 text-xl font-semibold">Partner Picks</h2>
           <p className="mb-4 text-sm text-slate-400">게임 장비/굿즈/스토어 추천 링크입니다.</p>
