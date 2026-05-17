@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { setRequestLocale } from 'next-intl/server';
 import { searchAuction, TRACKED_ITEMS, type AuctionItem } from '@/lib/lostark';
@@ -58,6 +59,19 @@ const GAME_NOTES: Record<string, string[]> = {
   ],
 };
 
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale, game } = await params;
+  if (!SUPPORTED_LOCALES.includes(locale as any) || !GAME_LABELS[game]) return {};
+  const title = `${GAME_LABELS[game]} market and update dashboard | GameBeat`;
+  const description = `Track ${GAME_LABELS[game]} market signals, patch context, match notes, and internal next steps before opening external game resources.`;
+  return {
+    title,
+    description,
+    alternates: { canonical: `/${locale}/${game}` },
+    openGraph: { title, description, url: `https://gamebeat.online/${locale}/${game}` },
+  };
+}
+
 export default async function GamePage({ params }: Props) {
   const { locale, game } = await params;
   if (!SUPPORTED_LOCALES.includes(locale as any) || !GAME_LABELS[game]) notFound();
@@ -92,11 +106,16 @@ export default async function GamePage({ params }: Props) {
             <p className="mt-3 text-sm leading-6 text-slate-400">
               GameBeat keeps the first click on a real game-specific dashboard. Use these notes to decide what to check next before opening an external marketplace, patch note, or community link.
             </p>
+            <p className="mt-3 text-sm leading-6 text-slate-400">
+              A good game page should not be only a doorway. Read the update angle, market context, and schedule pressure
+              together so the next click has intent, especially when a live API is temporarily quiet.
+            </p>
           </div>
           <ul className="space-y-2 text-sm leading-6 text-slate-300">
             {notes.map((note) => (
               <li key={note}>- {note}</li>
             ))}
+            <li>- Recheck the home board when no live card appears; empty data usually means no current match, not a broken page.</li>
           </ul>
         </section>
 
@@ -121,6 +140,11 @@ export default async function GamePage({ params }: Props) {
             <p className="mt-2 text-slate-400">
               This page keeps {GAME_LABELS[game]} indexed while live schedule and market integrations are expanded.
             </p>
+            <div className="mt-5 grid gap-3 text-sm leading-6 text-slate-300 md:grid-cols-3">
+              <div className="rounded-lg bg-slate-950 p-4">Check patch timing, event windows, and esports schedule before interpreting a quiet market page.</div>
+              <div className="rounded-lg bg-slate-950 p-4">Use the internal dashboard as a staging point so marketplace or community clicks are deliberate.</div>
+              <div className="rounded-lg bg-slate-950 p-4">Return after major updates because the useful signal often appears when players react to balance changes.</div>
+            </div>
           </div>
         )}
       </section>
