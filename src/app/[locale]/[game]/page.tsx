@@ -20,6 +20,44 @@ const GAME_LABELS: Record<string, string> = {
   valorant: 'Valorant',
 };
 
+const GAME_NOTES: Record<string, string[]> = {
+  lostark: [
+    'Track auction-house materials before raid reset because consumable demand can move faster than guide pages update.',
+    'Compare current buy price with average price before assuming a listing is cheap.',
+    'Use market cards as a pre-check, then verify in the in-game auction house before purchasing.'
+  ],
+  maplestory: [
+    'Check event shops, cube timing, and upgrade material demand before interpreting market noise.',
+    'Separate reboot and regular-world context because economy signals are not interchangeable.',
+    'Use this page as an update hub while deeper price integrations are being expanded.'
+  ],
+  dnf: [
+    'Watch patch notes, raid material demand, and avatar package timing before making upgrade decisions.',
+    'Separate short event spikes from durable market movement.',
+    'Use the hub to keep key update context in one internal page before opening external sources.'
+  ],
+  lol: [
+    'Track patch cadence, champion changes, and esports schedule context together.',
+    'Use update notes to decide whether a pick is meta noise or a durable change.',
+    'Keep match and patch research inside the page before leaving for external coverage.'
+  ],
+  dota2: [
+    'Compare hero balance changes with tournament drafts before chasing short-term trends.',
+    'Watch item changes and role shifts because they often matter more than win-rate headlines.',
+    'Use this hub as a stable entry point for patch and market notes.'
+  ],
+  cs2: [
+    'Separate skin-market movement from gameplay patch context.',
+    'Check map pool changes, case drops, and major tournament timing before buying items.',
+    'Use internal notes first so outbound marketplace clicks are deliberate.'
+  ],
+  valorant: [
+    'Compare agent balance, map rotation, and esports meta before judging a patch.',
+    'Watch bundle timing separately from gameplay updates.',
+    'Use this hub for quick context before opening external match or store pages.'
+  ],
+};
+
 export default async function GamePage({ params }: Props) {
   const { locale, game } = await params;
   if (!SUPPORTED_LOCALES.includes(locale as any) || !GAME_LABELS[game]) notFound();
@@ -33,6 +71,7 @@ export default async function GamePage({ params }: Props) {
         }))
       )
     : [];
+  const notes = GAME_NOTES[game] ?? [];
 
   return (
     <main className="min-h-screen bg-slate-950 text-slate-100">
@@ -46,6 +85,20 @@ export default async function GamePage({ params }: Props) {
       <section className="container mx-auto max-w-6xl px-4 py-10">
         <h1 className="text-4xl font-bold tracking-tight">{GAME_LABELS[game]} dashboard</h1>
         <p className="mt-3 text-slate-400">Market signals, match context and update notes for {GAME_LABELS[game]}.</p>
+
+        <section className="mt-6 grid gap-4 rounded-xl border border-slate-800 bg-slate-900/70 p-5 md:grid-cols-[1fr_1.2fr]">
+          <div>
+            <h2 className="text-xl font-semibold">What this page is for</h2>
+            <p className="mt-3 text-sm leading-6 text-slate-400">
+              GameBeat keeps the first click on a real game-specific dashboard. Use these notes to decide what to check next before opening an external marketplace, patch note, or community link.
+            </p>
+          </div>
+          <ul className="space-y-2 text-sm leading-6 text-slate-300">
+            {notes.map((note) => (
+              <li key={note}>- {note}</li>
+            ))}
+          </ul>
+        </section>
 
         {game === 'lostark' ? (
           <div className="mt-6 grid gap-3 md:grid-cols-2 lg:grid-cols-3">
