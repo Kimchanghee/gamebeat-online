@@ -1,6 +1,7 @@
 import { setRequestLocale } from 'next-intl/server';
 import { searchAuction, TRACKED_ITEMS, type AuctionItem } from '@/lib/lostark';
 import Link from 'next/link';
+import SafeInlineAdsterra from '@/components/SafeInlineAdsterra';
 
 interface Props {
   params: Promise<{ locale: string }>;
@@ -135,6 +136,7 @@ export default async function Home({ params }: Props) {
           </div>
         </div>
       </section>
+          <SafeInlineAdsterra placement="homepage-inline" />
     </main>
   );
 }
