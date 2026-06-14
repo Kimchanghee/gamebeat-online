@@ -67,8 +67,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title,
     description,
-    alternates: { canonical: `/${locale}/${game}` },
-    openGraph: { title, description, url: `https://gamebeat.online/${locale}/${game}` },
+    alternates: { canonical: `/${locale}/${game}/` },
+    openGraph: { title, description, url: `https://gamebeat.online/${locale}/${game}/` },
   };
 }
 

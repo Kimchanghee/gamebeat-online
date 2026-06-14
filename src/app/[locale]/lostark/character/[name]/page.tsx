@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${decoded} — 로스트아크 캐릭터 정보 | GameBeat`,
     description: `로스트아크 ${decoded} 캐릭터의 아이템 레벨, 직업, 클래스, 길드, 서버 정보.`,
-    alternates: { canonical: `/${locale}/lostark/character/${encodeURIComponent(decoded)}` },
+    alternates: { canonical: `/${locale}/lostark/character/${encodeURIComponent(decoded)}/` },
   };
 }
 

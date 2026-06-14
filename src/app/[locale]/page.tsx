@@ -1,4 +1,5 @@
 import { setRequestLocale } from 'next-intl/server';
+import type { Metadata } from 'next';
 import { searchAuction, TRACKED_ITEMS, type AuctionItem } from '@/lib/lostark';
 import Link from 'next/link';
 import SafeInlineSponsored from '@/components/SafeInlineSponsored';
@@ -8,6 +9,14 @@ interface Props {
 }
 
 export const revalidate = 3600; // 1h ISR
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+  return {
+    alternates: { canonical: `/${locale}/` },
+    openGraph: { url: `https://gamebeat.online/${locale}/` },
+  };
+}
 
 const FALLBACK_PRICES: Record<string, { buyPrice: number; averagePrice: number; yDayAvgPrice: number }> = {
   '명예의 파편 주머니(소)': { buyPrice: 92, averagePrice: 96, yDayAvgPrice: 98 },
