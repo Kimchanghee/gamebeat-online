@@ -1,0 +1,18 @@
+
+> gamebeat-online@2.0.0 test D:\웹 수익 자동화\rebuild-202610\gamebeat.online
+> node --test tests/gate.test.mjs
+
+✔ words() counts tokens, not markdown symbols (2.0908ms)
+✔ pass example has zero commerce errors (13.5638ms)
+✔ fail example is rejected for each planted defect (5.0828ms)
+✔ duplicate product URL within 30 days is rejected; older than 30 days is allowed (5.7017ms)
+✔ non-allowlisted host and non-product Amazon URLs fail (4.1115ms)
+✔ with no Associates tag configured, links stay plain and disclosure says so (0.2673ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 367.0119

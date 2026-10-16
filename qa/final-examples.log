@@ -1,0 +1,24 @@
+
+> gamebeat-online@2.0.0 gate:examples D:\웹 수익 자동화\rebuild-202610\gamebeat.online
+> node scripts/gate-examples.mjs
+
+OK   pass-example.md: 0 error(s)
+OK   fail-example.md: 17 error(s) (expected >0)
+      - title length 17 not in 50-60: "Best PS5 SSD deal"
+      - published must be ISO with explicit offset
+      - answer should be a direct ~40-word answer (got 5 words)
+      - amazon url must be an exact product page (/dp/ASIN)
+      - product.evidence file not found: ops/evidence/does-not-exist.md
+      - in-text product link differs from product.url: https://www.amazon.com/dp/B0OTHER000
+      - needs at least one cover image
+      - image missing src/alt: /missing.png
+      - image file not found: public/missing.png
+      - body 37 words < 700
+      - needs >=4 question-shaped H2s (got 1)
+      - needs >=2 internal links in body (got 0)
+      - banned first-hand/rating phrase: /\bI tested\b/i
+      - banned first-hand/rating phrase: /\bin my experience\b/i
+      - banned first-hand/rating phrase: /\b\d(?:\.\d)?\s*(?:\/|out of)\s*(?:5|10)\s*stars?\b/i
+      - Amazon posts must not show prices/availability
+      - link text must not imply price
+OK   duplicate-url guard rejects a repeated product URL

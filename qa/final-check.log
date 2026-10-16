@@ -1,0 +1,19 @@
+
+> gamebeat-online@2.0.0 check D:\웹 수익 자동화\rebuild-202610\gamebeat.online
+> astro check
+
+[2m23:53:19[22m [34m[content][39m Syncing content
+[33m[1m23:53:20[22m [WARN] [glob-loader][39m No files found matching "[^_]*.md" in directory "src\content\posts"
+[2m23:53:20[22m [34m[content][39m Synced content
+[2m23:53:20[22m [34m[types][39m Generated [2m1.24s[22m
+[2m23:53:20[22m [34m[check][39m Getting diagnostics for Astro files in D:\웹 수익 자동화\rebuild-202610\gamebeat.online...
+[96mscripts/quote-fm.mjs[0m:[93m13[0m:[93m83[0m - [93mwarning[0m[90m ts(6133): [0m'm' is declared but its value is never read.
+
+[7m13[0m     parts[1] = parts[1].replace(/^(\s*- )(?!["'])([^:\n]*\s[^:\n]*: .*?)\s*$/gm, (m, k, v) => `${k}"${v.replace(/\\/g, '\\\\').replace(/"/g, '\\"')}"`);
+[7m  [0m [93m                                                                                  ~[0m
+
+Result (35 files): 
+- 0 errors
+- 0 warnings
+- 1 hint
+

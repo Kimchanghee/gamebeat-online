@@ -31,18 +31,18 @@ if (d.faq.length) nodes.push(faqPage(d.faq));
         <h1>{d.title}</h1>
         <p class="byline">Updated <time datetime={isoDate(d.updated)}>{isoDate(d.updated)}</time> · facts checked {d.data_asof} · by the {site.name} desk</p>
         <p class="answer" data-answer><strong>Short answer:</strong> {d.answer}</p>
-        <Receipt title={`Checkout slip: ${d.question}`} items={d.checklist} />
+        <Receipt title={`Setup checks: ${d.question}`} items={d.checklist} />
         <Content />
         <Faq faq={d.faq} />
         <Sources sources={d.sources} asOf={d.data_asof} />
       </article>
-      <aside class="article__rail" aria-label="More from this aisle">
+      <aside class="article__rail" aria-label="Related equipment guides">
         <div class="railcard">
-          <h2>Same wall</h2>
+          <h2>Next on the bench</h2>
           <ul>{related.map((r) => <li><a href={`/guides/${r.data.slug}/`}>{r.data.title}</a></li>)}</ul>
           <p><a href={`/category/${cat.slug}/`}>All {cat.name.toLowerCase()} checklists</a> · <a href="/methodology/">how we check facts</a></p>
         </div>
-        <div class="adslot" aria-hidden="true"></div>
+        {site.adsEnabled && <div class="adslot" aria-hidden="true"></div>}
       </aside>
     </div>
   </div>

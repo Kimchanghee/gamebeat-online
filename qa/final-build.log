@@ -1,0 +1,78 @@
+
+> gamebeat-online@2.0.0 build D:\웹 수익 자동화\rebuild-202610\gamebeat.online
+> node scripts/prebuild.mjs && astro build
+
+og: wrote 15 images
+[2m23:53:44[22m [34m[content][39m Syncing content
+[33m[1m23:53:44[22m [WARN] [glob-loader][39m No files found matching "[^_]*.md" in directory "src\content\posts"
+[2m23:53:44[22m [34m[content][39m Synced content
+[2m23:53:44[22m [34m[types][39m Generated [2m1.28s[22m
+[2m23:53:44[22m [34m[build][39m output: [34m"static"[39m
+[2m23:53:44[22m [34m[build][39m mode: [34m"static"[39m
+[2m23:53:44[22m [34m[build][39m directory: [34mD:\웹 수익 자동화\rebuild-202610\gamebeat.online\dist\[39m
+[2m23:53:44[22m [34m[build][39m Collecting build info...
+[2m23:53:44[22m [34m[build][39m [32m✓ Completed in 1.33s.[39m
+[2m23:53:44[22m [34m[build][39m Building static entrypoints...
+[2m23:53:47[22m [34m[vite][39m [32m✓ built in 2.85s[39m
+[2m23:53:47[22m [34m[build][39m [32m✓ Completed in 2.91s.[39m
+
+[42m[30m building client (vite) [39m[49m
+[2m23:53:47[22m [34m[vite][39m transforming...
+[2m23:53:47[22m [34m[vite][39m [32m✓[39m 1 modules transformed.
+[2m23:53:47[22m [34m[vite][39m rendering chunks...
+[2m23:53:47[22m [34m[vite][39m [32m✓ built in 59ms[39m
+
+[42m[30m generating static routes [39m[49m
+[2m23:53:47[22m [32m▶[39m src/pages/404.astro
+[2m23:53:47[22m   [34m└─[39m [2m/404.html[22m [2m(+22ms)[22m 
+[2m23:53:47[22m [32m▶[39m src/pages/[doc].astro
+[2m23:53:47[22m   [34m├─[39m [2m/affiliate-disclosure/index.html[22m [2m(+6ms)[22m 
+[2m23:53:47[22m   [34m├─[39m [2m/about/index.html[22m [2m(+6ms)[22m 
+[2m23:53:47[22m   [34m├─[39m [2m/contact/index.html[22m [2m(+5ms)[22m 
+[2m23:53:47[22m   [34m├─[39m [2m/disclaimer/index.html[22m [2m(+4ms)[22m 
+[2m23:53:47[22m   [34m├─[39m [2m/methodology/index.html[22m [2m(+29ms)[22m 
+[2m23:53:47[22m   [34m├─[39m [2m/privacy/index.html[22m [2m(+5ms)[22m 
+[2m23:53:47[22m   [34m└─[39m [2m/terms/index.html[22m [2m(+7ms)[22m 
+[2m23:53:47[22m [32m▶[39m src/pages/category/[slug].astro
+The collection "posts" does not exist or is empty. Please check your content config file for errors.
+[2m23:53:47[22m   [34m├─[39m [2m/category/headsets/index.html[22m [2m(+31ms)[22m 
+The collection "posts" does not exist or is empty. Please check your content config file for errors.
+[2m23:53:47[22m   [34m├─[39m [2m/category/mice/index.html[22m [2m(+26ms)[22m 
+The collection "posts" does not exist or is empty. Please check your content config file for errors.
+[2m23:53:47[22m   [34m├─[39m [2m/category/keyboards/index.html[22m [2m(+32ms)[22m 
+The collection "posts" does not exist or is empty. Please check your content config file for errors.
+[2m23:53:48[22m   [34m├─[39m [2m/category/monitors/index.html[22m [2m(+35ms)[22m 
+The collection "posts" does not exist or is empty. Please check your content config file for errors.
+[2m23:53:48[22m   [34m├─[39m [2m/category/chairs/index.html[22m [2m(+18ms)[22m 
+The collection "posts" does not exist or is empty. Please check your content config file for errors.
+[2m23:53:48[22m   [34m└─[39m [2m/category/capture/index.html[22m [2m(+18ms)[22m 
+[2m23:53:48[22m [32m▶[39m src/pages/guides/[slug].astro
+[2m23:53:48[22m   [34m├─[39m [2m/guides/capture-card-hdmi-usb-hdcp/index.html[22m [2m(+12ms)[22m 
+[2m23:53:48[22m   [34m├─[39m [2m/guides/gaming-chair-fit/index.html[22m [2m(+7ms)[22m 
+[2m23:53:48[22m   [34m├─[39m [2m/guides/gaming-mouse-shape-sensitivity/index.html[22m [2m(+14ms)[22m 
+[2m23:53:48[22m   [34m├─[39m [2m/guides/headphone-safe-listening-volume/index.html[22m [2m(+21ms)[22m 
+[2m23:53:48[22m   [34m├─[39m [2m/guides/keyboard-switch-layout/index.html[22m [2m(+26ms)[22m 
+[2m23:53:48[22m   [34m├─[39m [2m/guides/headset-connection-guide/index.html[22m [2m(+71ms)[22m 
+[2m23:53:48[22m   [34m├─[39m [2m/guides/monitor-desk-viewing-ergonomics/index.html[22m [2m(+20ms)[22m 
+[2m23:53:48[22m   [34m└─[39m [2m/guides/monitor-resolution-refresh-input/index.html[22m [2m(+12ms)[22m 
+[2m23:53:48[22m [32m▶[39m src/pages/guides/index.astro
+[2m23:53:48[22m   [34m└─[39m [2m/guides/index.html[22m [2m(+18ms)[22m 
+[2m23:53:48[22m [32m▶[39m src/pages/index.astro
+The collection "posts" does not exist or is empty. Please check your content config file for errors.
+[2m23:53:48[22m   [34m└─[39m [2m/index.html[22m [2m(+8ms)[22m 
+[2m23:53:48[22m [35mλ[39m src/pages/llms.txt.ts
+The collection "posts" does not exist or is empty. Please check your content config file for errors.
+[2m23:53:48[22m   [34m└─[39m [2m/llms.txt[22m [2m(+9ms)[22m 
+[2m23:53:48[22m [32m▶[39m src/pages/picks/[slug].astro
+The collection "posts" does not exist or is empty. Please check your content config file for errors.
+[2m23:53:48[22m [32m▶[39m src/pages/picks/index.astro
+The collection "posts" does not exist or is empty. Please check your content config file for errors.
+[2m23:53:48[22m   [34m└─[39m [2m/picks/index.html[22m [2m(+6ms)[22m 
+[2m23:53:48[22m [35mλ[39m src/pages/rss.xml.ts
+The collection "posts" does not exist or is empty. Please check your content config file for errors.
+[2m23:53:48[22m   [34m└─[39m [2m/rss.xml[22m [2m(+50ms)[22m 
+[2m23:53:48[22m [32m✓ Completed in 893ms.
+[39m
+[2m23:53:48[22m [34m[@astrojs/sitemap][39m `sitemap-index.xml` created at `dist`
+[2m23:53:48[22m [34m[build][39m 25 page(s) built in [1m5.46s[22m
+[2m23:53:48[22m [34m[build][39m [1mComplete![22m

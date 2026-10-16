@@ -8,6 +8,6 @@ const { title, items, id = 'checklist', note } = Astro.props;
   <ol class="receipt__lines">
     {items.map((it, i) => <li><span class="receipt__n">{String(i + 1).padStart(2, '0')}</span><span>{it}</span></li>)}
   </ol>
-  <p class="receipt__total"><span>LINES</span><span>{items.length}</span></p>
+  <p class="receipt__total"><span>CHECKPOINTS</span><span>{items.length}</span></p>
   {note && <p class="receipt__note">{note}</p>}
 </section>

@@ -1,0 +1,268 @@
+[
+  {
+    "name": "home",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "h1": "Good gear starts with the right fit.",
+    "focus": {
+      "text": "Skip to content",
+      "outline": "solid"
+    },
+    "smallTargets": 0,
+    "active": [],
+    "ads": 0,
+    "errors": []
+  },
+  {
+    "name": "chair",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "h1": "How to choose a gaming chair that fits your desk",
+    "focus": {
+      "text": "Skip to content",
+      "outline": "solid"
+    },
+    "smallTargets": 0,
+    "active": [
+      {
+        "color": "rgb(24, 43, 41)",
+        "background": "rgba(0, 0, 0, 0)"
+      }
+    ],
+    "ads": 0,
+    "errors": []
+  },
+  {
+    "name": "capture",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "h1": "What limits a capture card: HDMI, USB or HDCP?",
+    "focus": {
+      "text": "Skip to content",
+      "outline": "solid"
+    },
+    "smallTargets": 0,
+    "active": [
+      {
+        "color": "rgb(24, 43, 41)",
+        "background": "rgba(0, 0, 0, 0)"
+      }
+    ],
+    "ads": 0,
+    "errors": []
+  },
+  {
+    "name": "category",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "h1": "Headsets",
+    "focus": {
+      "text": "Skip to content",
+      "outline": "solid"
+    },
+    "smallTargets": 0,
+    "active": [
+      {
+        "color": "rgb(22, 99, 71)",
+        "background": "rgb(229, 238, 234)"
+      },
+      {
+        "color": "rgb(24, 43, 41)",
+        "background": "rgba(0, 0, 0, 0)"
+      }
+    ],
+    "ads": 0,
+    "errors": []
+  },
+  {
+    "name": "picks",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "h1": "Product picks",
+    "focus": {
+      "text": "Skip to content",
+      "outline": "solid"
+    },
+    "smallTargets": 0,
+    "active": [
+      {
+        "color": "rgb(22, 99, 71)",
+        "background": "rgb(229, 238, 234)"
+      },
+      {
+        "color": "rgb(24, 43, 41)",
+        "background": "rgba(0, 0, 0, 0)"
+      }
+    ],
+    "ads": 0,
+    "errors": []
+  },
+  {
+    "name": "404",
+    "width": 1440,
+    "status": 404,
+    "overflow": false,
+    "h1": "This station is empty.",
+    "focus": {
+      "text": "Skip to content",
+      "outline": "solid"
+    },
+    "smallTargets": 0,
+    "active": [],
+    "ads": 0,
+    "errors": []
+  },
+  {
+    "name": "comparison",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "h1": "Check the tag before you take it to the register.",
+    "focus": {
+      "text": "Skip to content",
+      "outline": "solid"
+    },
+    "smallTargets": 2,
+    "active": [],
+    "ads": 0,
+    "errors": []
+  },
+  {
+    "name": "home",
+    "width": 390,
+    "status": 200,
+    "overflow": false,
+    "h1": "Good gear starts with the right fit.",
+    "focus": {
+      "text": "Skip to content",
+      "outline": "solid"
+    },
+    "smallTargets": 0,
+    "active": [],
+    "ads": 0,
+    "errors": []
+  },
+  {
+    "name": "chair",
+    "width": 390,
+    "status": 200,
+    "overflow": false,
+    "h1": "How to choose a gaming chair that fits your desk",
+    "focus": {
+      "text": "Skip to content",
+      "outline": "solid"
+    },
+    "smallTargets": 0,
+    "active": [
+      {
+        "color": "rgb(24, 43, 41)",
+        "background": "rgba(0, 0, 0, 0)"
+      }
+    ],
+    "ads": 0,
+    "errors": []
+  },
+  {
+    "name": "capture",
+    "width": 390,
+    "status": 200,
+    "overflow": false,
+    "h1": "What limits a capture card: HDMI, USB or HDCP?",
+    "focus": {
+      "text": "Skip to content",
+      "outline": "solid"
+    },
+    "smallTargets": 0,
+    "active": [
+      {
+        "color": "rgb(24, 43, 41)",
+        "background": "rgba(0, 0, 0, 0)"
+      }
+    ],
+    "ads": 0,
+    "errors": []
+  },
+  {
+    "name": "category",
+    "width": 390,
+    "status": 200,
+    "overflow": false,
+    "h1": "Headsets",
+    "focus": {
+      "text": "Skip to content",
+      "outline": "solid"
+    },
+    "smallTargets": 0,
+    "active": [
+      {
+        "color": "rgb(22, 99, 71)",
+        "background": "rgb(229, 238, 234)"
+      },
+      {
+        "color": "rgb(24, 43, 41)",
+        "background": "rgba(0, 0, 0, 0)"
+      }
+    ],
+    "ads": 0,
+    "errors": []
+  },
+  {
+    "name": "picks",
+    "width": 390,
+    "status": 200,
+    "overflow": false,
+    "h1": "Product picks",
+    "focus": {
+      "text": "Skip to content",
+      "outline": "solid"
+    },
+    "smallTargets": 0,
+    "active": [
+      {
+        "color": "rgb(22, 99, 71)",
+        "background": "rgb(229, 238, 234)"
+      },
+      {
+        "color": "rgb(24, 43, 41)",
+        "background": "rgba(0, 0, 0, 0)"
+      }
+    ],
+    "ads": 0,
+    "errors": []
+  },
+  {
+    "name": "404",
+    "width": 390,
+    "status": 404,
+    "overflow": false,
+    "h1": "This station is empty.",
+    "focus": {
+      "text": "Skip to content",
+      "outline": "solid"
+    },
+    "smallTargets": 0,
+    "active": [],
+    "ads": 0,
+    "errors": []
+  },
+  {
+    "name": "comparison",
+    "width": 390,
+    "status": 200,
+    "overflow": false,
+    "h1": "Check the tag before you take it to the register.",
+    "focus": {
+      "text": "Skip to content",
+      "outline": "solid"
+    },
+    "smallTargets": 1,
+    "active": [],
+    "ads": 0,
+    "errors": []
+  }
+]
