@@ -1,7 +1,7 @@
 ---
 title: Affiliate disclosure
 seoTitle: "Affiliate Disclosure: How Product Links Work on GameBeat"
-description: "How GameBeat product links work, when they may earn a commission, the Amazon Associates statement, and why we never show Amazon prices or ratings."
+description: "Learn how GameBeat product links work, when they may earn a commission, the Amazon Associates statement, and why we never show Amazon prices or ratings."
 slug: affiliate-disclosure
 updated: 2026-10-15
 ---

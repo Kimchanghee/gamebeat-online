@@ -1,7 +1,7 @@
 ---
 title: Contact
 seoTitle: "Contact GameBeat: Corrections, Questions and Requests"
-description: "Contact GameBeat for corrections, wrong product links, privacy requests or topic ideas. One email address, and what we can and cannot help you with."
+description: "Contact GameBeat for corrections, wrong product links, privacy requests or topic ideas. Find our email address and what we can and cannot help you with."
 slug: contact
 updated: 2026-10-15
 ---

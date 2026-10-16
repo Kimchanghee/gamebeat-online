@@ -31,42 +31,42 @@ export const site = {
     "name": "Headsets",
     "code": "AUD",
     "seoTitle": "Headsets Buying Guide: Compatibility and Setup | GameBeat",
-    "blurb": "Choose headsets with a clear view of compatibility, practical fit and everyday compromises. Read sourced buying criteria before deciding what belongs in your setup."
+    "blurb": "Choose headsets with a view of compatibility, practical fit and everyday compromises. Read sourced buying criteria before deciding what belongs in your setup."
   },
   {
     "slug": "mice",
     "name": "Mice",
     "code": "PTR",
     "seoTitle": "Mice Buying Guide: Compatibility and Setup | GameBeat",
-    "blurb": "Choose mice with a clear view of compatibility, practical fit and everyday compromises. Read sourced buying criteria before deciding what belongs in your setup."
+    "blurb": "Choose mice with a view of compatibility, practical fit and everyday compromises. Read sourced buying criteria before deciding what belongs in your setup."
   },
   {
     "slug": "keyboards",
     "name": "Keyboards",
     "code": "KEY",
     "seoTitle": "Keyboards Buying Guide: Compatibility and Setup | GameBeat",
-    "blurb": "Choose keyboards with a clear view of compatibility, practical fit and everyday compromises. Read sourced buying criteria before deciding what belongs in your setup."
+    "blurb": "Choose keyboards with a view of compatibility, practical fit and everyday compromises. Read sourced buying criteria before deciding what belongs in your setup."
   },
   {
     "slug": "monitors",
     "name": "Monitors",
     "code": "DSP",
     "seoTitle": "Monitors Buying Guide: Compatibility and Setup | GameBeat",
-    "blurb": "Choose monitors with a clear view of compatibility, practical fit and everyday compromises. Read sourced buying criteria before deciding what belongs in your setup."
+    "blurb": "Choose monitors with a view of compatibility, practical fit and everyday compromises. Read sourced buying criteria before deciding what belongs in your setup."
   },
   {
     "slug": "chairs",
     "name": "Chairs",
     "code": "ERG",
     "seoTitle": "Chairs Buying Guide: Compatibility and Setup | GameBeat",
-    "blurb": "Choose chairs with a clear view of compatibility, practical fit and everyday compromises. Read sourced buying criteria before deciding what belongs in your setup."
+    "blurb": "Choose chairs with a view of compatibility, practical fit and everyday compromises. Read sourced buying criteria before deciding what belongs in your setup."
   },
   {
     "slug": "capture",
     "name": "Capture",
     "code": "REC",
     "seoTitle": "Capture Buying Guide: Compatibility and Setup | GameBeat",
-    "blurb": "Choose capture with a clear view of compatibility, practical fit and everyday compromises. Read sourced buying criteria before deciding what belongs in your setup."
+    "blurb": "Choose capture with a view of compatibility, practical fit and everyday compromises. Read sourced buying criteria before deciding what belongs in your setup."
   }
 ],
 };

@@ -1,7 +1,7 @@
 ---
 title: "How to choose a gaming chair that fits your desk"
 seoTitle: "Gaming Chair Fit: Seat, Armrest and Desk Buying Guide"
-description: "Choose a gaming chair by seat depth, height, lumbar support and desk clearance. Use this practical fit checklist based on OSHA workstation guidance before buying."
+description: "Choose a gaming chair by seat depth, height, lumbar support and desk clearance. Use a practical fit checklist based on OSHA workstation guidance before buying."
 slug: gaming-chair-fit
 question: "How do you choose a gaming chair that fits your desk?"
 answer: "Choose a chair by how its adjustable seat, backrest and armrests fit your body and desk, not its racing silhouette. Confirm supported feet, comfortable seat depth and relaxed shoulders together. OSHA recommends trying different chairs before purchase because dimensions alone cannot establish comfort."

@@ -8,7 +8,7 @@ import { graph, organization, website, isoDate } from '../lib/ld.ts';
 const guides = (await getCollection('guides')).sort((a, b) => +b.data.updated - +a.data.updated);
 const posts = (await getCollection('posts')).sort((a, b) => b.data.published.localeCompare(a.data.published));
 const title = 'GameBeat Gaming Gear: Build a Better Desktop Loadout';
-const description = "Choose gaming headsets, mice, keyboards, monitors, chairs and capture gear with sourced setup guides, compatibility checks and practical buying advice for your desk.";
+const description = "Choose headsets, mice, keyboards, monitors, chairs and capture gear with sourced setup guides, compatibility checks and practical buying advice for your desk.";
 const ld = graph(organization(), website());
 let n = 0;
 ---
