@@ -3,7 +3,7 @@
 # The ASIN below is not a real product. Files in _examples/ are never built or published.
 title: "Example pick: a 2TB Gen4 SSD with a heatsink for the PS5 slot"
 seoTitle: "Example Pick: 2TB Gen4 PS5 SSD With Heatsink (Gate Sample)"
-description: "Gate sample only. Shows how a GameDealWave pick checks a 2TB PCIe Gen4 NVMe SSD against Sony's PS5 slot rules: size code, read speed, heatsink height limits."
+description: "Gate sample only. Shows how a GameBeat pick checks a 2TB PCIe Gen4 NVMe SSD against Sony's PS5 slot rules: size code, read speed, heatsink height limits."
 slug: example-2tb-gen4-ps5-ssd
 question: Does this 2TB Gen4 SSD with a heatsink fit the PS5 expansion slot?
 answer: "On paper, yes: the example listing names a PCIe Gen4 x4 NVMe drive in the 2280 size with 7,000MB/s rated reads and a low-profile heatsink, which matches every line of Sony's published PS5 M.2 requirements."
@@ -23,7 +23,7 @@ images:
   - src: /example-cover.svg
     alt: Illustration of an M.2 SSD with a heatsink next to a PS5 expansion slot outline
     role: cover
-    credit: GameDealWave illustration (example)
+    credit: GameBeat illustration (example)
     rights: generated
 sources:
   - title: PlayStation Support - How to add M.2 SSD storage to PS5 consoles
@@ -32,7 +32,7 @@ faq:
   - q: Does the heatsink version matter for the PS5?
     a: Sony asks for a heatsink or heat transfer sheet and publishes a maximum size, so a low-profile heatsink version is the safer listing to pick.
 ---
-This is a gate sample. It walks through the same reading order a real GameDealWave pick uses, so the format can be checked without touching a live product. The drive named here does not exist; its listing details were written to match Sony's rules on purpose, and the link points to a made-up product page.
+This is a gate sample. It walks through the same reading order a real GameBeat pick uses, so the format can be checked without touching a live product. The drive named here does not exist; its listing details were written to match Sony's rules on purpose, and the link points to a made-up product page.
 
 The full background on every requirement lives in the [PS5 M.2 SSD checklist](/guides/ps5-m2-ssd-checklist/), and the storage shelf of the site is collected on the [storage hub](/category/storage/). This pick only answers one narrow question: does this specific listing, in this specific option, clear each line?
 
@@ -77,7 +77,7 @@ Once the drive arrives, three quick checks catch most problems:
 2. The heatsink is attached the way the maker shows, with no protective film left on the thermal pad.
 3. The console's format screen reports the drive and its read speed without an error.
 
-If the console refuses the drive, the [disclaimer](/disclaimer/) explains what this site can and cannot promise, and the retailer's return window is the place to start. GameDealWave does not handle orders or returns.
+If the console refuses the drive, the [disclaimer](/disclaimer/) explains what this site can and cannot promise, and the retailer's return window is the place to start. GameBeat does not handle orders or returns.
 
 ## Who should skip this kind of drive?
 

@@ -1,4 +1,4 @@
-# DESIGN_REFERENCES — gamedealwave.online
+# DESIGN_REFERENCES — gamebeat.online
 
 ## Metaphor
 **Arcade price-tag wall / bargain-bin receipts.** The site is the wall of a game shop's clearance aisle:

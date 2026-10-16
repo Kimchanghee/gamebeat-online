@@ -34,21 +34,21 @@ function out(path, data) {
   const png = new Resvg(svg(data), { fitTo: { mode: 'width', value: 1200 }, font: { loadSystemFonts: true } }).render().asPng();
   writeFileSync(path, png);
 }
-out('public/og/home.png', { code: 'GAMEDEALWAVE · PRICE-TAG WALL', title: 'Check the tag before you take it to the register', sub: 'gamedealwave.online · buying checklists, no prices' });
+out('public/og/home.png', { code: 'GAMEBEAT · PRICE-TAG WALL', title: 'Check the tag before you take it to the register', sub: 'gamebeat.online · buying checklists, no prices' });
 let n = 1;
-for (const c of site.categories) { out(`public/og/category/${c.slug}.png`, { code: `AISLE ${c.code} · ${c.name.toUpperCase()}`, title: c.seoTitle.split(':')[0], sub: 'gamedealwave.online · checklists, no prices' }); n++; }
+for (const c of site.categories) { out(`public/og/category/${c.slug}.png`, { code: `AISLE ${c.code} · ${c.name.toUpperCase()}`, title: c.seoTitle.split(':')[0], sub: 'gamebeat.online · checklists, no prices' }); n++; }
 const dir = 'src/content/guides';
 if (existsSync(dir)) for (const f of readdirSync(dir)) {
   if (!f.endsWith('.md') || f.startsWith('_')) continue;
   const fm = parse(readFileSync(`${dir}/${f}`, 'utf8').split(/^---\s*$/m)[1]);
-  out(`public/og/guides/${fm.slug}.png`, { code: `${String(fm.category).toUpperCase()} · CHECKLIST`, title: fm.title, sub: `gamedealwave.online · facts checked ${fm.data_asof}` });
+  out(`public/og/guides/${fm.slug}.png`, { code: `${String(fm.category).toUpperCase()} · CHECKLIST`, title: fm.title, sub: `gamebeat.online · facts checked ${fm.data_asof}` });
   n++;
 }
 const pdir = 'src/content/posts';
 if (existsSync(pdir)) for (const f of readdirSync(pdir)) {
   if (!f.endsWith('.md') || f.startsWith('_')) continue;
   const fm = parse(readFileSync(`${pdir}/${f}`, 'utf8').split(/^---\s*$/m)[1]);
-  out(`public/og/picks/${fm.slug}.png`, { code: `${String(fm.category).toUpperCase()} · PICK`, title: fm.title, sub: `gamedealwave.online · link checked ${String(fm.product?.verifiedAt ?? '').slice(0, 10)}` });
+  out(`public/og/picks/${fm.slug}.png`, { code: `${String(fm.category).toUpperCase()} · PICK`, title: fm.title, sub: `gamebeat.online · link checked ${String(fm.product?.verifiedAt ?? '').slice(0, 10)}` });
   n++;
 }
 console.log(`og: wrote ${n} images`);

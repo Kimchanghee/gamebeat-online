@@ -1,11 +1,11 @@
 ---
 title: How we pick products and check facts
-seoTitle: "Methodology: How GameDealWave Picks and Checks Products"
-description: "The process GameDealWave uses to research buyer questions, choose a product, confirm the listing matches the exact model, and source every spec it prints."
+seoTitle: "Methodology: How GameBeat Picks and Checks Products"
+description: "The process GameBeat uses to research buyer questions, choose a product, confirm the listing matches the exact model, and source every spec it prints."
 slug: methodology
 updated: 2026-10-15
 ---
-This page describes the process behind every checklist and product pick on GameDealWave. It is the same process for every article; nothing on the site is exempt.
+This page describes the process behind every checklist and product pick on GameBeat. It is the same process for every article; nothing on the site is exempt.
 
 ## How is a topic chosen?
 
@@ -33,4 +33,4 @@ A product pick covers one product in one of our five aisles (consoles, games, gi
 
 ## How are mistakes handled?
 
-Email [contact@gamedealwave.online](mailto:contact@gamedealwave.online). Corrections are made in place and the page's updated date changes. Read more [about the site](/about/) or see all [buying checklists](/guides/).
+Email [contact@gamebeat.online](mailto:contact@gamebeat.online). Corrections are made in place and the page's updated date changes. Read more [about the site](/about/) or see all [buying checklists](/guides/).

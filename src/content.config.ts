@@ -4,7 +4,7 @@ import { glob } from 'astro/loaders';
 const source = z.object({ title: z.string().min(3), url: z.string().url() });
 const asof = z.union([z.string(), z.date()]).transform((v) => (typeof v === 'string' ? v : v.toISOString().slice(0, 10)));
 const faq = z.object({ q: z.string().min(5), a: z.string().min(10) });
-const category = z.enum(['consoles', 'games', 'gift-cards', 'storage', 'controllers']);
+const category = z.enum(["headsets","mice","keyboards","monitors","chairs","capture"]);
 
 // Evergreen buying-criteria guides (no product links needed).
 const guides = defineCollection({

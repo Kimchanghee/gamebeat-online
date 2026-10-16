@@ -1,4 +1,4 @@
-# Question backlog — gamedealwave.online
+# Question backlog — gamebeat.online
 
 Lane: game deals (consoles, games & editions, gift cards & wallet funds, console storage, controllers).
 Not in this lane: headsets, mice, keyboards, monitors, chairs, capture cards (those belong to gamebeat.online),

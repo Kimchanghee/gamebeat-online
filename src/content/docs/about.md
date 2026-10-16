@@ -1,11 +1,11 @@
 ---
-title: About GameDealWave
-seoTitle: "About GameDealWave: Who Writes These Buying Checklists"
-description: "GameDealWave is an independent buying-checklist site for consoles, games, gift cards, storage and controllers. Who runs it, why, and the rules it follows."
+title: About GameBeat
+seoTitle: "About GameBeat: Who Writes These Buying Checklists"
+description: "GameBeat is an independent buying-checklist site for consoles, games, gift cards, storage and controllers. Who runs it, why, and the rules it follows."
 slug: about
 updated: 2026-10-15
 ---
-GameDealWave is an independent, English-language website that writes **buying checklists for video game purchases**: consoles, game editions, digital codes, gift cards and wallet funds, console storage, and controllers. It is not a store, it does not sell anything, and it is not affiliated with Sony, Microsoft, Nintendo, Valve or Amazon.
+GameBeat is an independent, English-language website that writes **buying checklists for video game purchases**: consoles, game editions, digital codes, gift cards and wallet funds, console storage, and controllers. It is not a store, it does not sell anything, and it is not affiliated with Sony, Microsoft, Nintendo, Valve or Amazon.
 
 ## Why does this site exist?
 
@@ -22,6 +22,6 @@ Game listings hide the details that decide whether a purchase works for you: whi
 2. **No invented experience.** We do not claim to have tested, owned or used a product unless that is literally true, and we do not publish ratings, scores or reviews we did not produce.
 3. **No prices.** Prices and stock change constantly. We never print Amazon prices, availability or star ratings; you see them on the retailer page.
 4. **Dates are visible.** Every page shows when it was last updated and when its facts were last checked.
-5. **Corrections are welcome.** If something is wrong, email [contact@gamedealwave.online](mailto:contact@gamedealwave.online) and we fix it and change the updated date.
+5. **Corrections are welcome.** If something is wrong, email [contact@gamebeat.online](mailto:contact@gamebeat.online) and we fix it and change the updated date.
 
 See [how we pick and check](/methodology/) and the [affiliate disclosure](/affiliate-disclosure/) for how links work.

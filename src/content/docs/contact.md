@@ -1,11 +1,11 @@
 ---
 title: Contact
-seoTitle: "Contact GameDealWave: Corrections, Questions and Requests"
-description: "Contact GameDealWave for corrections, wrong product links, privacy requests or topic ideas. One email address, and what we can and cannot help you with."
+seoTitle: "Contact GameBeat: Corrections, Questions and Requests"
+description: "Contact GameBeat for corrections, wrong product links, privacy requests or topic ideas. One email address, and what we can and cannot help you with."
 slug: contact
 updated: 2026-10-15
 ---
-The fastest way to reach GameDealWave is email: **[contact@gamedealwave.online](mailto:contact@gamedealwave.online)**.
+The fastest way to reach GameBeat is email: **[contact@gamebeat.online](mailto:contact@gamebeat.online)**.
 
 ## What should I write about?
 

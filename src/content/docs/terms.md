@@ -1,11 +1,11 @@
 ---
 title: Terms of use
-seoTitle: Terms of Use for GameDealWave Buying Checklists and Picks
-description: "Terms for using GameDealWave: information only, no warranty on third-party listings, links to external retailers, trademarks, and permitted use of content."
+seoTitle: Terms of Use for GameBeat Buying Checklists and Picks
+description: "Terms for using GameBeat: information only, no warranty on third-party listings, links to external retailers, trademarks, and permitted use of content."
 slug: terms
 updated: 2026-10-15
 ---
-By using gamedealwave.online you agree to these terms.
+By using gamebeat.online you agree to these terms.
 
 ## Information only
 
@@ -17,7 +17,7 @@ The site links to retailers and official support pages that we do not control. T
 
 ## Trademarks
 
-PlayStation, Xbox, Nintendo Switch, Steam and Amazon are trademarks of their respective owners. GameDealWave is not affiliated with or endorsed by them.
+PlayStation, Xbox, Nintendo Switch, Steam and Amazon are trademarks of their respective owners. GameBeat is not affiliated with or endorsed by them.
 
 ## Use of our content
 
@@ -25,4 +25,4 @@ You may quote short passages with a link back to the page. Do not republish whol
 
 ## Changes
 
-We may update these terms; the date above shows the latest version. Questions: [contact@gamedealwave.online](mailto:contact@gamedealwave.online). See also the [disclaimer](/disclaimer/) and [privacy policy](/privacy/).
+We may update these terms; the date above shows the latest version. Questions: [contact@gamebeat.online](mailto:contact@gamebeat.online). See also the [disclaimer](/disclaimer/) and [privacy policy](/privacy/).

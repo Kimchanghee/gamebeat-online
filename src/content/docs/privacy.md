@@ -1,11 +1,11 @@
 ---
 title: Privacy policy
-seoTitle: "Privacy Policy: Analytics, Ads and Cookies on GameDealWave"
-description: "What GameDealWave collects, how Google Analytics 4 and AdSense use cookies, consent for EEA, UK and Swiss visitors, and how to opt out of personalized ads."
+seoTitle: "Privacy Policy: Analytics, Ads and Cookies on GameBeat"
+description: "What GameBeat collects, how Google Analytics 4 and AdSense use cookies, consent for EEA, UK and Swiss visitors, and how to opt out of personalized ads."
 slug: privacy
 updated: 2026-10-15
 ---
-This policy explains what data GameDealWave (gamedealwave.online) collects and how third-party services on the site use cookies.
+This policy explains what data GameBeat (gamebeat.online) collects and how third-party services on the site use cookies.
 
 ## What do we collect directly?
 
@@ -29,4 +29,4 @@ Product links go to Amazon.com. Once you leave this site, Amazon's own privacy n
 
 ## Your rights and contact
 
-You can ask what we hold about you (normally only an email you sent) and ask us to delete it: [contact@gamedealwave.online](mailto:contact@gamedealwave.online). See also the [terms of use](/terms/).
+You can ask what we hold about you (normally only an email you sent) and ask us to delete it: [contact@gamebeat.online](mailto:contact@gamebeat.online). See also the [terms of use](/terms/).

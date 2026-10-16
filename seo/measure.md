@@ -1,15 +1,15 @@
-# Measurement plan — gamedealwave.online
+# Measurement plan — gamebeat.online
 
 Baseline (2026-10-16 KST): the domain returns HTTP 402 `DEPLOYMENT_DISABLED` from Vercel on every path
 (`seo/before-curl.txt`). Impressions, clicks, indexed pages and AI citations are treated as 0 / not measurable.
 
 ## Day 0 (parent, after deploy)
-- Search Console: add the domain property, submit `https://gamedealwave.online/sitemap-index.xml`, URL-inspect
+- Search Console: add the domain property, submit `https://gamebeat.online/sitemap-index.xml`, URL-inspect
   `/`, `/guides/`, and two guides. Record indexed count = 0 as the baseline row.
 - Bing Webmaster: import from GSC; IndexNow key file is `/ca4c78e1dd12f2678364a05ecfa37e33.txt`.
 - GA4: set `PUBLIC_GA4_ID`, rebuild, confirm one `page_view` and one `outbound_affiliate_click` in DebugView.
 - AI citation baseline: ask these 8 questions in ChatGPT search, Perplexity and Google AI Overviews; record O/X
-  whether gamedealwave.online is cited:
+  whether gamebeat.online is cited:
   1. Will any M.2 SSD work in a PS5?  2. Xbox Series expansion card vs USB drive?  3. Does Switch 2 need microSD Express?
   4. PS5 disc or digital edition?  5. What is in a game's deluxe edition?  6. Do PlayStation gift cards work in other regions?
   7. How to spot a gift card scam?  8. Will a PS4 controller work on PS5?

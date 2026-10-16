@@ -1,11 +1,11 @@
 ---
 title: Affiliate disclosure
-seoTitle: "Affiliate Disclosure: How Product Links Work on GameDealWave"
-description: "How GameDealWave product links work, when they may earn a commission, the Amazon Associates statement, and why we never show Amazon prices or ratings."
+seoTitle: "Affiliate Disclosure: How Product Links Work on GameBeat"
+description: "How GameBeat product links work, when they may earn a commission, the Amazon Associates statement, and why we never show Amazon prices or ratings."
 slug: affiliate-disclosure
 updated: 2026-10-15
 ---
-GameDealWave links to products on Amazon.com. This page explains what those links are and how they may pay the site.
+GameBeat links to products on Amazon.com. This page explains what those links are and how they may pay the site.
 
 ## Do product links earn the site money?
 
@@ -29,4 +29,4 @@ Amazon prices, availability and ratings change constantly, and Amazon only allow
 
 Some pages may show advertising served by Google AdSense. Ads are labelled and are separate from product links. See the [privacy policy](/privacy/) for how ad cookies work and how to opt out.
 
-Questions: [contact@gamedealwave.online](mailto:contact@gamedealwave.online).
+Questions: [contact@gamebeat.online](mailto:contact@gamebeat.online).

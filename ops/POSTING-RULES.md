@@ -1,4 +1,4 @@
-# POSTING RULES — gamedealwave.online hourly picks
+# POSTING RULES — gamebeat.online hourly picks
 
 Who uses this: the AI writer that produces one `/picks/` post per hour. Follow the steps in order.
 If any step fails, skip the slot. Never publish filler to keep the cadence.
@@ -79,7 +79,7 @@ images:
   - src: /picks-img/<slug>/cover.png
     alt: "<what the image shows>"
     role: cover
-    credit: GameDealWave illustration
+    credit: GameBeat illustration
     rights: generated
 sources:
   - title: "<official page title>"

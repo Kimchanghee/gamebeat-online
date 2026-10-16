@@ -10,10 +10,10 @@ const nav = [
 <header class="shelf">
   <div class="shelf__inner">
     <a class="wordmark" href="/" aria-label={`${site.name} home`}>
-      <span class="wordmark__name">Game<b>Deal</b>Wave</span>
-      <span class="wordmark__sub">checkout checklists for console buyers</span>
+      <span class="wordmark__name">Game<b>Beat</b></span>
+      <span class="wordmark__sub">EQUIPMENT FIELD NOTES / EST. 2026</span>
     </a>
-    <nav aria-label="Aisles">
+    <nav aria-label="Equipment">
       <ul class="aisles">
         {nav.map((n) => (
           <li><a href={n.href} aria-current={path.startsWith(n.href) ? 'page' : undefined}><span class="aisles__code" aria-hidden="true">{n.code}</span>{n.label}</a></li>
