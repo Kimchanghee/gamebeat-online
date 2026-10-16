@@ -17,6 +17,7 @@ export const site = {
   gscVerification: env.PUBLIC_GSC_VERIFICATION ?? '',
   naverVerification: '',
   adsenseClient: 'ca-pub-4490818204529253',
+  adsEnabled: env.PUBLIC_ADS_ENABLED === 'true',
   contactEmail: 'contact@gamebeat.online',
   // Amazon Associates (US). Not issued yet: '' => plain amazon.com product links, no tag, no Associates statement.
   amazonTag: '',

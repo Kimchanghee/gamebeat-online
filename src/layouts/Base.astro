@@ -25,7 +25,7 @@ const consentRegions = ['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
   <link rel="alternate" type="application/rss+xml" title={`${site.name} guides and picks`} href="/rss.xml" />
   <link rel="sitemap" href="/sitemap-index.xml" />
-  <meta name="theme-color" content="#e6dfd0" />
+  <meta name="theme-color" content="#edf0ed" />
   <meta property="og:site_name" content={site.name} />
   <meta property="og:type" content={ogType} />
   <meta property="og:title" content={title} />
@@ -49,7 +49,7 @@ const consentRegions = ['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','
   </script>
   {site.ga4Id && <script async src={`https://www.googletagmanager.com/gtag/js?id=${site.ga4Id}`}></script>}
   {site.ga4Id && <script is:inline define:vars={{ id: site.ga4Id }}>gtag('js', new Date()); gtag('config', id);</script>}
-  <script async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${site.adsenseClient}`} crossorigin="anonymous"></script>
+  {site.adsEnabled && <script async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${site.adsenseClient}`} crossorigin="anonymous"></script>}
   <script type="application/ld+json" set:html={ld} />
 </head>
 <body data-affiliate={isAffiliateMode() ? 'on' : 'off'}>

@@ -17,11 +17,11 @@ When enabled, we use Google Analytics 4 to count visits and see which pages and 
 
 ## Google AdSense and third-party cookies
 
-Pages may show ads served by Google AdSense. Third-party vendors, including Google, use cookies to serve ads based on your prior visits to this and other websites. Google's use of advertising cookies enables it and its partners to serve ads based on those visits. You can opt out of personalised advertising in [Google Ads Settings](https://adssettings.google.com/), and you can opt out of some third-party vendors' cookies at [aboutads.info](https://www.aboutads.info/choices/).
+Advertising is disabled by default pending account and consent-platform verification. If enabled after that verification, pages may show ads served by Google AdSense. Third-party vendors, including Google, use cookies to serve ads based on your prior visits to this and other websites. Google's use of advertising cookies enables it and its partners to serve ads based on those visits. You can opt out of personalised advertising in [Google Ads Settings](https://adssettings.google.com/), and you can opt out of some third-party vendors' cookies at [aboutads.info](https://www.aboutads.info/choices/).
 
 ## Consent in the EEA, UK and Switzerland
 
-For visitors in the European Economic Area, the United Kingdom and Switzerland, analytics and advertising storage are **denied by default** (Google Consent Mode v2) until you make a choice in the consent message shown by Google's certified consent management platform. You can change your choice at any time from the privacy link in that message.
+The code includes regional denied defaults for analytics and advertising storage in the European Economic Area, the United Kingdom and Switzerland. A certified consent platform and its banner have not been verified. Consent Mode is not a consent interface; advertising must stay disabled until the required consent setup is verified.
 
 ## Product links
 
