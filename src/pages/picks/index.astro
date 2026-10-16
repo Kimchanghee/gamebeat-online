@@ -6,7 +6,7 @@ import { graph, organization, breadcrumb } from '../../lib/ld.ts';
 const posts = (await getCollection('posts')).sort((a, b) => b.data.published.localeCompare(a.data.published));
 const crumbs = [{ name: 'Home', path: '/' }, { name: 'Picks', path: '/picks/' }];
 ---
-<Base title="Product Picks: Game Deals Checked Against the Exact Listing" description="Single-product picks for consoles, games, gift cards, storage and controllers. Each link is matched to the exact model and option first; no prices shown." path="/picks/" ld={graph(organization(), breadcrumb(crumbs))}>
+<Base title="Gaming Gear Picks: Exact Models and Options | GameBeat" description="Single-product gaming gear picks with sourced specifications and exact model checks. Read compatibility limits and selection criteria without invented reviews." path="/picks/" ld={graph(organization(), breadcrumb(crumbs))}>
   <div class="wrap page">
     <Crumbs items={crumbs} />
     <h1>Product picks</h1>

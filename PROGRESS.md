@@ -10,3 +10,8 @@ QA attempts: test/build/gate failed due absent yaml/resvg/node-html-parser. pnpm
 Research candidates (search excerpts only, require full-body verification): Logitech polling-rate-on-a-mouse and gaming-mouse-guide at /en-us/discover/a/; Microsoft refresh-rate support; Elgato passthrough-vs-capture and HD60 X VRR. RTINGS guessed mouse/monitor URLs 404; headphone/keyboard pages only nav so NOT read evidence. Old Elgato source redirected login and tab closed.
 
 Remaining delivery: 8 sourced guides total, unique fully reviewed design, current design reference activity/license evidence, all CONTRACT/SHOPPING SEO+QA. Parent owns deploy. Deadline interrupted continuation; preserve guide and identity work.
+
+## Bounded four-guide continuation
+Four directly sourced English guides added: headset connection; mouse shape/sensitivity; keyboard switch/layout; monitor resolution/refresh/input. Bodies 936–975 words, six question H2s and internal links. Chair unchanged. Total FIVE, not eight. Primary originals and rejected promotional claims: ops/research/four-guides-20261015.md.
+Corrected inherited console/gift-card copy in integration pages, posting lane and backlog. Affiliate empty and ads opt-in/off preserved. No deployment or account work.
+Dependency installation resumed after repeated tool-runtime restarts. Validation output: qa-build.log / qa-gate.log (untracked); actual completion must be inspected before claiming pass. Broader design/OG/screenshots and remaining three guides are outside this chunk.

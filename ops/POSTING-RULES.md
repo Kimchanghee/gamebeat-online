@@ -3,8 +3,8 @@
 Who uses this: the AI writer that produces one `/picks/` post per hour. Follow the steps in order.
 If any step fails, skip the slot. Never publish filler to keep the cadence.
 
-Lane: consoles, games & editions, gift cards & wallet funds, console storage, controllers (US Amazon).
-Out of lane: headsets, mice, keyboards, monitors, chairs, capture (gamebeat.online); home/kitchen/toys; clothing.
+Lane: headsets, mice, keyboards, monitors, chairs, capture equipment (US Amazon).
+Out of lane: consoles, games, gift cards, console storage and controllers (gamedealwave.online); home/kitchen/toys; clothing.
 
 ## 1. Research the buyer question (10 min)
 1. Pick a question from `content/backlog.md` (`queued`/`idea`, type `pick`) or a new lane question.
@@ -16,15 +16,14 @@ Out of lane: headsets, mice, keyboards, monitors, chairs, capture (gamebeat.onli
 
 ## 2. Pick the product and check the link (5 min)
 1. Choose one product that answers the question. Use the exact Amazon product page `https://www.amazon.com/dp/<ASIN>`.
-   Strip tracking parameters. The site adds the Associates tag itself when `PUBLIC_AMAZON_TAG` is set;
+   Strip tracking parameters. Affiliate mode is hard-disabled until the parent verifies the account and explicitly changes the site configuration;
    never paste a tagged link and never create links in Associates yourself unless the owner asks.
-2. Open the link. Confirm it lands on the exact product and the option you will name (capacity, color, edition,
-   platform, region). Save `ops/evidence/<slug>.md` with: opened-at (ISO + offset), final URL, page title,
+2. Open the link. Confirm it lands on the exact product and the option you will name (connection, color, switch, layout, size or platform). Save `ops/evidence/<slug>.md` with: opened-at (ISO + offset), final URL, page title,
    option text exactly as shown, model number, maker page URL used for specs.
 3. Do NOT copy price, discount, stock, star rating, review count or Amazon images. Those need the Amazon API.
 
 ## 3. Collect specs only from the product page or the maker's official page
-Every spec in the post must appear on one of those pages. Compatibility claims (PS5 slot, Xbox, Switch 2)
+Every spec in the post must appear on one of those pages. Compatibility claims (audio input, display mode, software or mounting support)
 must match the platform holder's support page; cite it in `sources`.
 
 ## 4. Write (20 min)
@@ -65,11 +64,11 @@ question: "<the buyer question>"
 answer: "<20-70 word direct answer naming the product and the deciding spec>"
 published: "2026-10-15T14:00:00+09:00"
 updated: "2026-10-15T14:00:00+09:00"
-category: storage            # consoles | games | gift-cards | storage | controllers
+category: headsets           # headsets | mice | keyboards | monitors | chairs | capture
 primaryKeyword: "<main query>"
 product:
   name: "<exact product name as listed>"
-  optionDetail: "<capacity/color/edition/platform exactly as selected>"
+  optionDetail: "<connection/color/switch/layout/size exactly as selected>"
   provider: amazon
   url: "https://www.amazon.com/dp/<ASIN>"
   landingHost: www.amazon.com

@@ -15,13 +15,13 @@ const crumbs = [{ name: 'Home', path: '/' }, { name: c.name, path: `/category/${
 <Base title={c.seoTitle} description={c.blurb} path={`/category/${c.slug}/`} ogImage={`/og/category/${c.slug}.png`} ld={graph(organization(), breadcrumb(crumbs))}>
   <div class="wrap page">
     <Crumbs items={crumbs} />
-    <p class="kicker">Aisle {c.code}</p>
+    <p class="kicker">Station {c.code}</p>
     <h1>{c.name}</h1>
     <p>{c.blurb}</p>
-    <h2>Checklists in this aisle</h2>
+    <h2>Checklists in this category</h2>
     {guides.length ? <ul class="ledger">{guides.map((g) => <li><a href={`/guides/${g.data.slug}/`}><span class="ledger__c">{c.code}</span><span><span class="ledger__t">{g.data.title}</span><span class="ledger__q">{g.data.question}</span></span></a></li>)}</ul> : <p class="empty">No checklists here yet.</p>}
-    <h2>Product picks in this aisle</h2>
-    {posts.length ? <ul class="ledger">{posts.map((p) => <li><a href={`/picks/${p.data.slug}/`}><span class="ledger__c">{p.data.published.slice(0, 10)}</span><span><span class="ledger__t">{p.data.title}</span></span></a></li>)}</ul> : <p class="empty">No product picks in this aisle yet. Picks appear only after the product link is checked against the exact listing.</p>}
+    <h2>Product picks in this category</h2>
+    {posts.length ? <ul class="ledger">{posts.map((p) => <li><a href={`/picks/${p.data.slug}/`}><span class="ledger__c">{p.data.published.slice(0, 10)}</span><span><span class="ledger__t">{p.data.title}</span></span></a></li>)}</ul> : <p class="empty">No product picks in this category yet. Picks appear only after the product link is checked against the exact listing.</p>}
     <p><a href="/guides/">All checklists</a> · <a href="/methodology/">How we pick products</a></p>
   </div>
 </Base>

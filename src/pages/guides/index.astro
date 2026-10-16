@@ -7,7 +7,7 @@ import { graph, organization, breadcrumb } from '../../lib/ld.ts';
 const guides = (await getCollection('guides')).sort((a, b) => a.data.category.localeCompare(b.data.category));
 const crumbs = [{ name: 'Home', path: '/' }, { name: 'Guides', path: '/guides/' }];
 ---
-<Base title="All Buying Checklists for Consoles, Games and Accessories" description="Every GameBeat buying checklist in one list: consoles, games, gift cards, storage and controllers, each with sources and the date facts were checked." path="/guides/" ld={graph(organization(), breadcrumb(crumbs))}>
+<Base title="Gaming Gear Buying Guides: Fit and Setup | GameBeat" description="Explore sourced gaming gear guides for headsets, mice, keyboards, monitors and chairs. Compare practical fit, connections and setup before choosing new equipment." path="/guides/" ld={graph(organization(), breadcrumb(crumbs))}>
   <div class="wrap page">
     <Crumbs items={crumbs} />
     <h1>All buying checklists</h1>

@@ -9,7 +9,7 @@ By using gamebeat.online you agree to these terms.
 
 ## Information only
 
-Checklists and picks are general buying information. They are not a guarantee that a product is right for you, available, or sold at a particular price. Always confirm the model, edition, region and price on the retailer's page before buying.
+Checklists and picks are general buying information. They are not a guarantee that a product is right for you, available, or sold at a particular price. Always confirm the model, connection, selected option and price on the retailer's page before buying.
 
 ## External links
 
