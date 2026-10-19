@@ -1,5 +1,5 @@
 {
-  "note": "Partner layer. A program renders links only when enabled is true AND id is a real issued ID. Parent fills ids after approval; never invent them.",
+  "note": "Partner layer. A program is active only when enabled is true AND id is a real issued ID. linkFormat \"query\" appends the id as a URL parameter (Amazon: ?tag=). linkFormat \"issued\" means the post uses the tracking deep link issued in the program dashboard; list its host in trackingHosts before enabling. Never invent IDs.",
   "genericDisclosure": "This page contains affiliate links. If you buy through them we may earn a commission, at no extra cost to you. It does not change what we recommend.",
   "noLinkCategories": [],
   "programs": {
@@ -13,7 +13,12 @@
         "amzn.to"
       ],
       "disclosure": "As an Amazon Associate I earn from qualifying purchases.",
-      "status": "not_applied_or_unverified"
+      "status": "not_applied_or_unverified",
+      "linkFormat": {
+        "type": "query",
+        "param": "tag"
+      },
+      "trackingHosts": []
     },
     "razer": {
       "name": "Razer affiliate program",
@@ -24,7 +29,11 @@
         "razer.com"
       ],
       "disclosure": "This page contains affiliate links. If you buy through them we may earn a commission, at no extra cost to you. It does not change what we recommend.",
-      "status": "not_applied_or_unverified"
+      "status": "not_applied_or_unverified",
+      "linkFormat": {
+        "type": "issued"
+      },
+      "trackingHosts": []
     },
     "secretlab": {
       "name": "Secretlab affiliate program",
@@ -35,7 +44,11 @@
         "www.secretlab.co"
       ],
       "disclosure": "This page contains affiliate links. If you buy through them we may earn a commission, at no extra cost to you. It does not change what we recommend.",
-      "status": "not_applied_or_unverified"
+      "status": "not_applied_or_unverified",
+      "linkFormat": {
+        "type": "issued"
+      },
+      "trackingHosts": []
     },
     "corsair": {
       "name": "Corsair affiliate program",
@@ -46,7 +59,11 @@
         "corsair.com"
       ],
       "disclosure": "This page contains affiliate links. If you buy through them we may earn a commission, at no extra cost to you. It does not change what we recommend.",
-      "status": "not_applied_or_unverified"
+      "status": "not_applied_or_unverified",
+      "linkFormat": {
+        "type": "issued"
+      },
+      "trackingHosts": []
     },
     "aliexpress": {
       "name": "AliExpress Portals",
@@ -58,7 +75,11 @@
         "s.click.aliexpress.com"
       ],
       "disclosure": "This page contains affiliate links. If you buy through them we may earn a commission, at no extra cost to you. It does not change what we recommend.",
-      "status": "not_applied_or_unverified"
+      "status": "not_applied_or_unverified",
+      "linkFormat": {
+        "type": "issued"
+      },
+      "trackingHosts": []
     }
   }
 }
