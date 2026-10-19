@@ -1,0 +1,48 @@
+{
+  "updated": "2026-10-19T09:17:58.420Z",
+  "note": "Prepared manuscripts only. Not published. Each needs: program enabled with real id in src/data/affiliates.json, exact-variant listing check, issued affiliate URL replacing AFFILIATE_URL_PENDING, link-check evidence file, publish time, image copied from ops/queue/images/<slug>/cover.png to public/images/picks/<slug>/cover.png, then the normal gate/publish path.",
+  "items": [
+    {
+      "slug": "razer-deathadder-v3-wired-checklist",
+      "program": "razer",
+      "product": "Razer DeathAdder V3 (wired)",
+      "variant": "wired, not V3 Pro; colour to confirm on listing",
+      "source": "https://www.razer.com/gaming-mice/razer-deathadder-v3",
+      "file": "ops/queue/razer-deathadder-v3-wired-checklist.md",
+      "image": "ops/queue/images/razer-deathadder-v3-wired-checklist/cover.png",
+      "imageRights": "own diagram (HTML render), facts from source page",
+      "factsObserved": "2026-10-19T18:05:00+09:00/2026-10-19T18:09:00+09:00",
+      "linkPending": true,
+      "programEnabled": false,
+      "published": false
+    },
+    {
+      "slug": "corsair-hs80-rgb-wireless-carbon-checklist",
+      "program": "corsair",
+      "product": "CORSAIR HS80 RGB WIRELESS",
+      "variant": "Carbon, SKU CA-9011235-NA",
+      "source": "https://www.corsair.com/us/en/p/gaming-headsets/ca-9011235-na/hs80-rgb-wireless-premium-gaming-headset-with-spatial-audio-carbon-ca-9011235-na",
+      "file": "ops/queue/corsair-hs80-rgb-wireless-carbon-checklist.md",
+      "image": "ops/queue/images/corsair-hs80-rgb-wireless-carbon-checklist/cover.png",
+      "imageRights": "own diagram (HTML render), facts from source page",
+      "factsObserved": "2026-10-19T18:05:00+09:00/2026-10-19T18:09:00+09:00",
+      "linkPending": true,
+      "programEnabled": false,
+      "published": false
+    },
+    {
+      "slug": "logitech-g-pro-x-superlight-2-white-checklist",
+      "program": "amazon",
+      "product": "Logitech G PRO X SUPERLIGHT 2",
+      "variant": "White",
+      "source": "https://www.logitechg.com/en-us/products/gaming-mice/pro-x2-superlight-wireless-mouse.html",
+      "file": "ops/queue/logitech-g-pro-x-superlight-2-white-checklist.md",
+      "image": "ops/queue/images/logitech-g-pro-x-superlight-2-white-checklist/cover.png",
+      "imageRights": "own diagram (HTML render), facts from source page",
+      "factsObserved": "2026-10-19T18:05:00+09:00/2026-10-19T18:09:00+09:00",
+      "linkPending": true,
+      "programEnabled": false,
+      "published": false
+    }
+  ]
+}
