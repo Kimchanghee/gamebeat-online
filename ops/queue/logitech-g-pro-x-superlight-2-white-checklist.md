@@ -1,6 +1,6 @@
 ---
 title: "Logitech G PRO X SUPERLIGHT 2 (White): a 60 g wireless mouse checklist"
-seoTitle: "Logitech G PRO X SUPERLIGHT 2 White: Wireless Mouse Checklist"
+seoTitle: "Logitech G PRO X SUPERLIGHT 2 White: Mouse Buying Checklist"
 description: "A buying checklist for the Logitech G PRO X SUPERLIGHT 2 in White: 60 g weight, LIGHTSPEED wireless, HERO 2 sensor, LIGHTFORCE switches and who it suits best."
 slug: logitech-g-pro-x-superlight-2-white-checklist
 question: "Should I buy the Logitech G PRO X SUPERLIGHT 2?"
@@ -84,6 +84,6 @@ Charge the mouse fully before a long session. With a light wireless mouse, a dea
 
 ## When to pick something else
 
-If you need a right-handed ergonomic body that fills the palm, a model like the wired Razer DeathAdder V3 may fit better. If you want lots of programmable buttons, look at a mouse designed for MMOs. Our [mouse shape and sensitivity checklist](/guides/gaming-mouse-shape-sensitivity/) explains how to compare shapes and sensitivity settings.
+If you need a right-handed ergonomic body that fills the palm, a model like the wired Razer DeathAdder V3 may fit better. If you want lots of programmable buttons, look at a mouse designed for MMOs. Our [mouse shape and sensitivity checklist](/guides/gaming-mouse-shape-sensitivity/) explains how to compare shapes and sensitivity settings, and our [monitor resolution and refresh-rate guide](/guides/monitor-resolution-refresh-input/) covers the screen side of a high-polling setup.
 
 We do not list prices, star ratings or stock here because they change. Check them on the retailer page.
