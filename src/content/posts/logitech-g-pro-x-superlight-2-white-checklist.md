@@ -6,7 +6,7 @@ slug: logitech-g-pro-x-superlight-2-white-checklist
 question: "Should I buy the Logitech G PRO X SUPERLIGHT 2?"
 answer: "Buy it if you want a very light wireless mouse for competitive play: Logitech lists it at 60 g with LIGHTSPEED wireless and a HERO 2 sensor. Confirm it is the SUPERLIGHT 2, the right colour, and that its shape suits your grip before buying."
 published: "2026-10-20T16:17:06+09:00"
-updated: "2026-10-20T16:17:06+09:00"
+updated: "2026-10-20T16:50:35+09:00"
 category: mice
 primaryKeyword: "PRO X SUPERLIGHT 2"
 product:

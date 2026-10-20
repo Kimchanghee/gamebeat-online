@@ -1,0 +1,22 @@
+{
+  "images": [
+    {
+      "file": "cover.png",
+      "kind": "columns",
+      "kicker": "Logitech G PRO X SUPERLIGHT 2 · White",
+      "title": "What Logitech lists, and what to check yourself",
+      "columns": [
+        {
+          "title": "Listed by Logitech",
+          "accent": true,
+          "items": ["About 60 g", "LIGHTSPEED wireless", "HERO 2 sensor: 888+ IPS, up to 44,000 DPI", "LIGHTFORCE hybrid switches"]
+        },
+        {
+          "title": "Check before buying",
+          "items": ["Listing says SUPERLIGHT 2, not gen 1", "Colour shows White", "Shape suits your grip"]
+        }
+      ],
+      "foot": "Source: Logitech G official product page, read 2026-10-19 · GameBeat diagram"
+    }
+  ]
+}
