@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T16:58:39+09:00",
+  "updated": "2026-11-15T10:34:52.258Z",
   "note": "Prepared manuscripts only. Not published. Each needs: program enabled with real id in src/data/affiliates.json, exact-variant listing check, issued affiliate URL replacing AFFILIATE_URL_PENDING, link-check evidence file, publish time, image copied from ops/queue/images/<slug>/cover.png to public/images/picks/<slug>/cover.png, then the normal gate/publish path.",
   "items": [
     {
@@ -45,6 +45,21 @@
       "published": true,
       "liveUrl": "https://gamebeat.online/picks/logitech-g-pro-x-superlight-2-white-checklist/",
       "asin": "B09NBWQDKX"
+    },
+    {
+      "slug": "stream-deck-neo-eight-keys-pages-check",
+      "program": "amazon",
+      "product": "Elgato Stream Deck Neo",
+      "variant": "White; Style: Steam Deck Neo (Amazon displayed wording); 8 Customizable Keys, 2 Touch Points",
+      "asin": "B0CVY4566H",
+      "source": "https://www.elgato.com/us/en/p/stream-deck-neo",
+      "file": "ops/queue/stream-deck-neo-eight-keys-pages-check.md",
+      "image": "ops/queue/images/stream-deck-neo-eight-keys-pages-check/cover.png",
+      "imageRights": "own diagram",
+      "factsObserved": "2026-11-15T19:33:30+09:00/2026-11-15T19:33:30+09:00",
+      "published": false,
+      "programEnabled": true,
+      "linkPending": false
     }
   ]
 }

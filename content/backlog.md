@@ -30,3 +30,5 @@ Search Console queries with impressions but no dedicated page (after 14 days of 
 - Mark a live page `refresh-needed` when its source facts change or its impressions drop by 30% or more between measurement windows.
 - Change `updated` / dateModified only when the page content actually changes.
 - Two pages answering the same question: keep the stronger one, 301 the other to it and keep the canonical on the survivor. Use 410 only as a last resort.
+
+| stream-deck-neo-eight-keys-pages-check | pick | queued | Elgato Stream Deck Neo; Amazon exact US variant verified 2026-11-15 |
