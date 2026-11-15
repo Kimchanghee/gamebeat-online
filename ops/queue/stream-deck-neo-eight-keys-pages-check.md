@@ -14,7 +14,7 @@ product:
   provider: amazon
   url: https://www.amazon.com/dp/B0CVY4566H
   landingHost: www.amazon.com
-  verifiedAt: 2026-11-15T19:33:30+09:00
+  verifiedAt: "2026-11-15T19:33:30+09:00"
   evidence: ops/link-checks/stream-deck-neo-eight-keys-pages-check.md
 images:
   - src: /images/picks/stream-deck-neo-eight-keys-pages-check/cover.png
