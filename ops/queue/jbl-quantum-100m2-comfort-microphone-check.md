@@ -1,41 +1,41 @@
 ---
 title: "[Black Friday Week] JBL Quantum 100M2: comfort vs mic"
 description: "Compare overseas reactions to the JBL Quantum 100M2: fabric cushions, a detachable microphone, short wired reach, and the connection checks before choosing it."
-slug: jbl-quantum-100m2-comfort-microphone-check
-question: What do overseas reviewers agree and disagree on about the JBL Quantum 100M2?
-answer: Both PC-WELT and PSX Brasil highlight comfort, but their microphone assessments differ. Check the 1.2 m wired reach and your audio socket before choosing this Black Quantum 100M2. This is a source-based comparison, not our own listening test or a claim that this model is discounted.
-published: PUBLISH_TIME_PENDING
-updated: PUBLISH_TIME_PENDING
-category: headsets
-primaryKeyword: JBL Quantum 100M2
+slug: "jbl-quantum-100m2-comfort-microphone-check"
+question: "What do overseas reviewers agree and disagree on about the JBL Quantum 100M2?"
+answer: "Both PC-WELT and PSX Brasil highlight comfort, but their microphone assessments differ. Check the 1.2 m wired reach and your audio socket before choosing this Black Quantum 100M2. This is a source-based comparison, not our own listening test or a claim that this model is discounted."
+published: "PUBLISH_TIME_PENDING"
+updated: "PUBLISH_TIME_PENDING"
+category: "headsets"
+primaryKeyword: "JBL Quantum 100M2"
 product:
-  name: JBL Quantum 100M2 Wired Gaming Headset, Detachable Mic - Black
+  name: "JBL Quantum 100M2 Wired Gaming Headset, Detachable Mic - Black"
   optionDetail: "Color: Black; wired 3.5 mm; detachable microphone; Quantum 100M2"
-  provider: amazon
-  url: https://www.amazon.com/dp/B0DRM949PC
-  landingHost: www.amazon.com
-  verifiedAt: 2026-11-21T13:15:27+09:00
-  evidence: ops/link-checks/jbl-quantum-100m2-comfort-microphone-check.md
+  provider: "amazon"
+  url: "https://www.amazon.com/dp/B0DRM949PC"
+  landingHost: "www.amazon.com"
+  verifiedAt: "2026-11-21T13:15:27+09:00"
+  evidence: "ops/link-checks/jbl-quantum-100m2-comfort-microphone-check.md"
 images:
-  - src: /images/picks/jbl-quantum-100m2-comfort-microphone-check/cover.png
-    alt: Own checklist diagram separating headset comfort, microphone disagreement and socket checks
-    role: cover
-    credit: GameBeat diagram
-    rights: own
+  - src: "/images/picks/jbl-quantum-100m2-comfort-microphone-check/cover.png"
+    alt: "Own checklist diagram separating headset comfort, microphone disagreement and socket checks"
+    role: "cover"
+    credit: "GameBeat diagram"
+    rights: "own"
 sources:
-  - title: JBL Singapore Quantum 100M2 official features and specifications
-    url: https://www.jbl.com.sg/gaming-headphones/QUANTUM100M2.html
-  - title: PC-WELT Quantum 100M2 independent review
-    url: https://www.pcwelt.de/article/3070656/jbl-quantum-100m2-test.html
-  - title: PSX Brasil Quantum 100M2 independent review
-    url: https://psxbrasil.com.br/headset-jbl-quantum-100m2-review/
-  - title: Amazon official Black Friday Week announcement
-    url: https://www.aboutamazon.com/news/retail/amazon-black-friday-cyber-monday-deals-2026
+  - title: "JBL Singapore Quantum 100M2 official features and specifications"
+    url: "https://www.jbl.com.sg/gaming-headphones/QUANTUM100M2.html"
+  - title: "PC-WELT Quantum 100M2 independent review"
+    url: "https://www.pcwelt.de/article/3070656/jbl-quantum-100m2-test.html"
+  - title: "PSX Brasil Quantum 100M2 independent review"
+    url: "https://psxbrasil.com.br/headset-jbl-quantum-100m2-review/"
+  - title: "Amazon official Black Friday Week announcement"
+    url: "https://www.aboutamazon.com/news/retail/amazon-black-friday-cyber-monday-deals-2026"
 faq:
-  - q: Do these reviews prove the headset will fit everyone?
-    a: No. Their comfort assessments are individual evaluations; check fit and your own connection requirements.
-  - q: Is a model-specific discount confirmed?
-    a: No. Amazon announced a select-brand headphone event; this article does not confirm a discount on this ASIN.
+  - q: "Do these reviews prove the headset will fit everyone?"
+    a: "No. Their comfort assessments are individual evaluations; check fit and your own connection requirements."
+  - q: "Is a model-specific discount confirmed?"
+    a: "No. Amazon announced a select-brand headphone event; this article does not confirm a discount on this ASIN."
 ---
 
 Amazon says: Save up to 50% on select headphones and speakers from Beats, JBL, Marshall and Sonos (Black Friday Week, November 19–30). Checked November 21, 2026, KST. This is a brand-and-category promotion, not confirmation that this particular headset is discounted. No product-specific price or price history is presented here.
