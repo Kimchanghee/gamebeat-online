@@ -62,6 +62,22 @@
       "linkPending": false,
       "publishedAt": "2026-11-16T10:05:05+09:00",
       "liveUrl": "https://gamebeat.online/picks/stream-deck-neo-eight-keys-pages-check/"
+    },
+    {
+      "slug": "jbl-quantum-100m2-comfort-microphone-check",
+      "program": "amazon",
+      "product": "JBL Quantum 100M2 Wired Gaming Headset, Detachable Mic - Black",
+      "variant": "Color: Black; wired 3.5 mm; detachable microphone; Quantum 100M2",
+      "asin": "B0DRM949PC",
+      "source": "https://www.jbl.com.sg/gaming-headphones/QUANTUM100M2.html",
+      "file": "ops/queue/jbl-quantum-100m2-comfort-microphone-check.md",
+      "image": "ops/queue/images/jbl-quantum-100m2-comfort-microphone-check/cover.png",
+      "imageRights": "own diagram",
+      "factsObserved": "2026-11-21T13:15:27+09:00/2026-11-21T13:15:27+09:00",
+      "published": false,
+      "creatorSessionId": "quHQANdMKl3vTSfl",
+      "slot": "20261121-1300-shop",
+      "strategy": "amazon-deal-v1"
     }
   ]
 }

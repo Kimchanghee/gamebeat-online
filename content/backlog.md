@@ -32,3 +32,5 @@ Search Console queries with impressions but no dedicated page (after 14 days of 
 - Two pages answering the same question: keep the stronger one, 301 the other to it and keep the canonical on the survivor. Use 410 only as a last resort.
 
 | stream-deck-neo-eight-keys-pages-check | pick | queued | Elgato Stream Deck Neo; Amazon exact US variant verified 2026-11-15 |
+
+| jbl-quantum-100m2-comfort-microphone-check | pick | queued | JBL Quantum100M2 Black; existing source comparison rechecked21Nov; normal launchd only |
