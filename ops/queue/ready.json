@@ -84,6 +84,23 @@
       "liveUrl": "https://gamebeat.online/picks/jbl-quantum-100m2-comfort-microphone-check/",
       "linkPending": false,
       "programEnabled": true
+    },
+    {
+      "slug": "jbl-quantum200-flip-up-mic-splitter-check",
+      "program": "amazon",
+      "product": "JBL Quantum 200 - Wired over-ear gaming headset with Voice focus directional flip-up mic and memory foam ear cushions (Black)",
+      "variant": "Black; Quantum 200; wired 3.5 mm; fixed flip-up microphone",
+      "asin": "B084CZX3T1",
+      "source": "https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dwb34a8d3b/pdfs/JBL_Quantum_200_SpecSheet_English.pdf",
+      "file": "ops/queue/jbl-quantum200-flip-up-mic-splitter-check.md",
+      "image": "ops/queue/images/jbl-quantum200-flip-up-mic-splitter-check/cover.png",
+      "imageRights": "own diagram",
+      "factsObserved": "2026-11-21T10:36:16Z/2026-11-21T10:36:16Z",
+      "published": false,
+      "creatorSessionId": "Zx2gArertWZu4WiO",
+      "slot": "20261123-1920-shop",
+      "dryRunPassedAt": "2026-11-23T10:24:47.801Z",
+      "dryRunReceipt": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/rebuild-202610/_ops/game-publisher/runs/2026-11-23T10-24-47-801Z-dryrun.json"
     }
   ]
 }

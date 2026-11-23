@@ -1,0 +1,28 @@
+{
+  "images": [
+    {
+      "file": "cover.png",
+      "kind": "columns",
+      "kicker": "GAMEBEAT / QUANTUM 200",
+      "title": "Keep the boom?",
+      "columns": [
+        {
+          "title": "Flip up is not detach",
+          "accent": true,
+          "items": [
+            "Boom stays attached",
+            "Raise it for mute"
+          ]
+        },
+        {
+          "title": "Check your socket",
+          "items": [
+            "Combined headset jack?",
+            "Separate audio and mic?"
+          ]
+        }
+      ],
+      "foot": "JBL specification, read 2026-11-21 · GameBeat diagram"
+    }
+  ]
+}
