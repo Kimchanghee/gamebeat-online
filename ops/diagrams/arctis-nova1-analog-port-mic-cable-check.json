@@ -1,0 +1,30 @@
+{
+  "images": [
+    {
+      "file": "cover.png",
+      "kind": "columns",
+      "kicker": "GAMEBEAT / ARCTIS NOVA 1",
+      "title": "Analog, not USB",
+      "columns": [
+        {
+          "title": "At the headset",
+          "accent": true,
+          "items": [
+            "Use supplied cable",
+            "5-conductor end inside",
+            "Retractable boom mic"
+          ]
+        },
+        {
+          "title": "At your device",
+          "items": [
+            "Check headset socket",
+            "Choose audio input",
+            "Software is separate"
+          ]
+        }
+      ],
+      "foot": "SteelSeries product + mic support, read 2026-11-24 · GameBeat diagram"
+    }
+  ]
+}

@@ -105,6 +105,24 @@
       "liveUrl": "https://gamebeat.online/picks/jbl-quantum200-flip-up-mic-splitter-check/",
       "linkPending": false,
       "programEnabled": true
+    },
+    {
+      "slug": "arctis-nova1-analog-port-mic-cable-check",
+      "program": "amazon",
+      "product": "SteelSeries Arctis Nova 1 Multi-System Gaming Headset - Black",
+      "variant": "Black; Arctis Nova 1; wired 3.5 mm analog; retractable microphone",
+      "asin": "B0B8Q4CR52",
+      "source": "https://steelseries.com/gaming-headsets/arctis-nova-1",
+      "file": "ops/queue/arctis-nova1-analog-port-mic-cable-check.md",
+      "image": "ops/queue/images/arctis-nova1-analog-port-mic-cable-check/cover.png",
+      "imageRights": "own diagram",
+      "factsObserved": "2026-11-24T13:05:00+09:00/2026-11-24T13:12:00+09:00",
+      "published": false,
+      "creatorSessionId": "A5t5EnihL5nqYmXK",
+      "slot": "20261124-1300-shop",
+      "strategy": "amazon-deal-v1",
+      "dryRunPassedAt": "2026-11-24T04:30:08.428Z",
+      "dryRunReceipt": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/rebuild-202610/_ops/game-publisher/runs/2026-11-24T04-29-15-679Z-dryrun.json"
     }
   ]
 }
