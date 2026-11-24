@@ -60,7 +60,7 @@ So a Mac user or a 4K recording plan should not assume the HDR path is the same 
 ## What connections and sources should you check before buying?
 Check the HDMI side first. Elgato lists HDMI 2.0 input, described as unencrypted, and HDMI 2.0 output for passthrough. It also lists a 3.5 mm stereo line-in for analog audio. The Amazon page names PS5, Xbox Series X and S, and Switch 2 as supported sources.
 
-Write down the source device, its output setting, your display's input, and the cable between each part. A mismatch in any one of them can limit the result even when the card itself supports the listed formats. If a source blocks capture through copy protection, the card cannot change that, so read the console's own setting notes as well as the capture card page.
+Write down the source device, its output setting, your display's input, and the cable between each part. A mismatch in any one of them can limit the result even when the card itself supports the listed formats. The [monitor resolution, refresh and input guide](/guides/monitor-resolution-refresh-input/) helps you check the display side. If a source blocks capture through copy protection, the card cannot change that, so read the console's own setting notes as well as the capture card page.
 
 ## Who should choose a different capture card?
 Choose another model if you need a card that captures more than the 4K S lists, or if your source cannot pass its signal through HDMI 2.0. Someone who only wants to play on a screen without recording does not need a capture card at all.
