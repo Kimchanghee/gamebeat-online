@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T17:05:00+09:00",
+  "updated": "2026-11-24T19:30:17+09:00",
   "note": "Prepared manuscripts only. Not published. Each needs: program enabled with real id in src/data/affiliates.json, exact-variant listing check, issued affiliate URL replacing AFFILIATE_URL_PENDING, link-check evidence file, publish time, image copied from ops/queue/images/<slug>/cover.png to public/images/picks/<slug>/cover.png, then the normal gate/publish path.",
   "items": [
     {
@@ -127,6 +127,19 @@
       "liveUrl": "https://gamebeat.online/picks/arctis-nova1-analog-port-mic-cable-check/",
       "linkPending": false,
       "programEnabled": true
+    },
+    {
+      "slug": "elgato-4k-s-passthrough-vs-capture-check",
+      "program": "amazon",
+      "product": "Elgato 4K S Capture Card",
+      "variant": "Elgato 4K S; USB-C; HDMI 2.0 input and passthrough output; 3.5 mm analog audio input",
+      "asin": "B0FFTFYGLV",
+      "source": "https://www.elgato.com/us/en/explorer/products/capture/elgato-game-capture-4k-s-technical-specifications",
+      "file": "ops/queue/elgato-4k-s-passthrough-vs-capture-check.md",
+      "image": "ops/queue/images/elgato-4k-s-passthrough-vs-capture-check/cover.png",
+      "imageRights": "own diagram",
+      "factsObserved": "2026-11-24T19:28:17+09:00/2026-11-24T19:30:17+09:00",
+      "published": false
     }
   ]
 }

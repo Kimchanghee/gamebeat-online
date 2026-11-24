@@ -1,0 +1,30 @@
+{
+  "images": [
+    {
+      "file": "cover.png",
+      "kind": "columns",
+      "kicker": "GAMEBEAT / ELGATO 4K S",
+      "title": "Two limits, not one",
+      "columns": [
+        {
+          "title": "To your display",
+          "accent": true,
+          "items": [
+            "HDMI 2.0 passthrough",
+            "Up to 4K60, 1080p240",
+            "HDR passthrough to 4K60"
+          ]
+        },
+        {
+          "title": "To your computer",
+          "items": [
+            "USB-C capture, up to 4K60",
+            "HDR capture: Windows, 1080p60",
+            "Check your USB port"
+          ]
+        }
+      ],
+      "foot": "Elgato 4K S pages, read 2026-11-24 · GameBeat diagram"
+    }
+  ]
+}
