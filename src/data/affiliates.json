@@ -6,14 +6,14 @@
     "amazon": {
       "name": "Amazon Associates (US)",
       "enabled": true,
-      "id": "gamebeatonlin-20",
+      "id": "homecostgb-20",
       "hosts": [
         "www.amazon.com",
         "amazon.com",
         "amzn.to"
       ],
       "disclosure": "As an Amazon Associate I earn from qualifying purchases.",
-      "status": "active (Associates Central StoreID gamebeatonlin-20 observed 2026-10-20)",
+      "status": "active (store gamebeatonlin-20; site tracking ID homecostgb-20 created in Associates Central 2026-11-25)",
       "linkFormat": {
         "type": "query",
         "param": "tag"

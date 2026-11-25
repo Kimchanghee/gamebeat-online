@@ -81,6 +81,6 @@ Skip it if you specifically need a removable boom, a USB-only connection, or wir
 
 [Check today's price on Amazon](https://www.amazon.com/dp/B084CZX3T1). Recheck that the selected option is the Black Quantum 200 before deciding.
 
-See all of Amazon's Black Friday Week deals: [Amazon's official Black Friday Week hub](https://www.amazon.com/blackfriday?tag=gamebeatonlin-20). The event link is separate from evidence of a model-specific discount.
+See all of Amazon's Black Friday Week deals: [Amazon's official Black Friday Week hub](https://www.amazon.com/blackfriday?tag=homecostgb-20). The event link is separate from evidence of a model-specific discount.
 
 #ad #CommissionsEarned. As an Amazon Associate I earn from qualifying purchases.

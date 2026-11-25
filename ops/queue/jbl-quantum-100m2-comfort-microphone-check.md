@@ -77,6 +77,6 @@ Skip it if you require wireless audio, need more cable reach without additional 
 
 [Check today's price on Amazon](https://www.amazon.com/dp/B0DRM949PC). Check the exact Black 100M2 option again before deciding. The link takes you to the current product page; no price number is stored in this article.
 
-See all of Amazon's Black Friday Week deals: [Amazon's official Black Friday Week hub](https://www.amazon.com/blackfriday?tag=gamebeatonlin-20). An event-wide promotion does not establish a discount on this model.
+See all of Amazon's Black Friday Week deals: [Amazon's official Black Friday Week hub](https://www.amazon.com/blackfriday?tag=homecostgb-20). An event-wide promotion does not establish a discount on this model.
 
 #ad #CommissionsEarned. As an Amazon Associate I earn from qualifying purchases.
