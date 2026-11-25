@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T10:05:00+09:00",
+  "updated": "2026-11-25T19:35:00+09:00",
   "note": "Prepared manuscripts only. Not published. Each needs: program enabled with real id in src/data/affiliates.json, exact-variant listing check, issued affiliate URL replacing AFFILIATE_URL_PENDING, link-check evidence file, publish time, image copied from ops/queue/images/<slug>/cover.png to public/images/picks/<slug>/cover.png, then the normal gate/publish path.",
   "items": [
     {
@@ -142,6 +142,26 @@
       "published": true,
       "publishedAt": "2026-11-25T10:05:00+09:00",
       "liveUrl": "https://gamebeat.online/picks/elgato-4k-s-passthrough-vs-capture-check/",
+      "linkPending": false,
+      "programEnabled": true
+    },
+    {
+      "slug": "hyperx-cloud-iii-wireless-console-dongle-check",
+      "program": "amazon",
+      "product": "HyperX Cloud III Wireless Gaming Headset (Black)",
+      "variant": "Black; Wireless style; 2.4 GHz USB dongle; model 77Z45AA",
+      "asin": "B0CBQYKFR2",
+      "source": "https://row.hyperx.com/products/hyperx-cloud-iii-wireless-gaming-headset",
+      "file": "ops/queue/hyperx-cloud-iii-wireless-console-dongle-check.md",
+      "image": "ops/queue/images/hyperx-cloud-iii-wireless-console-dongle-check/cover.png",
+      "imageRights": "own diagram",
+      "factsObserved": "2026-11-25T19:20:00+09:00/2026-11-25T19:30:00+09:00",
+      "published": false,
+      "creatorSessionId": "DkJFOEOUZ4mpTuPc",
+      "slot": "20261125-1920-shop",
+      "strategy": "amazon-deal-v1",
+      "dryRunPassedAt": "2026-11-25T10:33:08.510Z",
+      "dryRunReceipt": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/rebuild-202610/_ops/game-publisher/runs/2026-11-25T10-33-08-510Z-dryrun.json",
       "linkPending": false,
       "programEnabled": true
     }

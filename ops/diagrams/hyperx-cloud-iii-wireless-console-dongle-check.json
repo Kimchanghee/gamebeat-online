@@ -1,0 +1,30 @@
+{
+  "images": [
+    {
+      "file": "cover.png",
+      "kind": "columns",
+      "kicker": "GAMEBEAT / HYPERX CLOUD III WIRELESS",
+      "title": "Listed devices first",
+      "columns": [
+        {
+          "title": "HyperX lists",
+          "accent": true,
+          "items": [
+            "PC and PS5",
+            "PS4 and Switch",
+            "2.4 GHz USB dongle"
+          ]
+        },
+        {
+          "title": "Confirm yourself",
+          "items": [
+            "Xbox: not listed",
+            "No Bluetooth listed",
+            "Port: USB-C or USB-A"
+          ]
+        }
+      ],
+      "foot": "HyperX specs + US announcement, read 2026-11-25 · GameBeat diagram"
+    }
+  ]
+}
