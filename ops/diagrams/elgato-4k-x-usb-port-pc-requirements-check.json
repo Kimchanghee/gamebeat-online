@@ -1,0 +1,30 @@
+{
+  "images": [
+    {
+      "file": "cover.png",
+      "kind": "columns",
+      "kicker": "GAMEBEAT / ELGATO 4K X",
+      "title": "Card plus port plus PC",
+      "columns": [
+        {
+          "title": "Elgato lists",
+          "accent": true,
+          "items": [
+            "USB 3.2 Gen 2 port",
+            "Up to 4K144",
+            "Free Elgato Studio"
+          ]
+        },
+        {
+          "title": "Confirm yourself",
+          "items": [
+            "Gen 1 = reduced capture",
+            "HDR capture: Windows",
+            "Your port speed"
+          ]
+        }
+      ],
+      "foot": "Elgato 4K X page, read 2026-11-26 · GameBeat diagram"
+    }
+  ]
+}

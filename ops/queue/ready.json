@@ -166,6 +166,24 @@
       "programEnabled": true,
       "publishedAt": "2026-11-26T10:05:00+09:00",
       "liveUrl": "https://gamebeat.online/picks/hyperx-cloud-iii-wireless-console-dongle-check/"
+    },
+    {
+      "slug": "elgato-4k-x-usb-port-pc-requirements-check",
+      "program": "amazon",
+      "product": "Elgato 4K X Capture Card",
+      "variant": "Elgato 4K X; HDMI 2.1 input and passthrough output; USB 3.2 Gen 2 (USB-C); maker SKU 10GBH9901",
+      "asin": "B0CPFWXMBL",
+      "source": "https://www.elgato.com/us/en/p/game-capture-4k-x",
+      "file": "ops/queue/elgato-4k-x-usb-port-pc-requirements-check.md",
+      "image": "ops/queue/images/elgato-4k-x-usb-port-pc-requirements-check/cover.png",
+      "imageRights": "own diagram",
+      "factsObserved": "2026-11-26T13:12:00+09:00/2026-11-26T13:22:00+09:00",
+      "published": false,
+      "creatorSessionId": "ClaudeTakeover1300S",
+      "slot": "20261126-1300-shop",
+      "strategy": "amazon-deal-v1",
+      "linkPending": false,
+      "programEnabled": true
     }
   ]
 }
