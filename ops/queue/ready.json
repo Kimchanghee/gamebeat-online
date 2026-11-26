@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T17:05:00+09:00",
+  "updated": "2026-11-26T19:32:00+09:00",
   "note": "Prepared manuscripts only. Not published. Each needs: program enabled with real id in src/data/affiliates.json, exact-variant listing check, issued affiliate URL replacing AFFILIATE_URL_PENDING, link-check evidence file, publish time, image copied from ops/queue/images/<slug>/cover.png to public/images/picks/<slug>/cover.png, then the normal gate/publish path.",
   "items": [
     {
@@ -186,6 +186,42 @@
       "programEnabled": true,
       "publishedAt": "2026-11-26T17:05:00+09:00",
       "liveUrl": "https://gamebeat.online/picks/elgato-4k-x-usb-port-pc-requirements-check/"
+    },
+    {
+      "slug": "elgato-facecam-mk2-usb-port-mount-requirements-check",
+      "program": "amazon",
+      "product": "Elgato Facecam MK.2 Premium Full HD Webcam",
+      "variant": "Style: Facecam (not Facecam 4K); 1080p60, fixed focus, USB Type-C; maker SKU 10WAC9901",
+      "asin": "B0CW1S7XP5",
+      "source": "https://www.elgato.com/us/en/p/facecam-mk2",
+      "file": "ops/queue/elgato-facecam-mk2-usb-port-mount-requirements-check.md",
+      "image": "ops/queue/images/elgato-facecam-mk2-usb-port-mount-requirements-check/cover.png",
+      "imageRights": "own diagram",
+      "factsObserved": "2026-11-26T19:20:00+09:00/2026-11-26T19:28:00+09:00",
+      "published": false,
+      "creatorSessionId": "ClaudeTakeover1920S",
+      "slot": "20261126-1920-shop",
+      "strategy": "amazon-deal-v1",
+      "linkPending": false,
+      "programEnabled": true
+    },
+    {
+      "slug": "logitech-g305-black-aa-battery-receiver-setup-check",
+      "program": "amazon",
+      "product": "Logitech G305 LIGHTSPEED Wireless Gaming Mouse",
+      "variant": "Color: Black; HERO sensor; 1 x AA battery; LIGHTSPEED USB receiver; maker model 910-005280",
+      "asin": "B07CMS5Q6P",
+      "source": "https://support.logi.com/hc/en-001/articles/360023303254-G305-LIGHTSPEED-Wireless-Gaming-Mouse-Technical-Specifications",
+      "file": "ops/queue/logitech-g305-black-aa-battery-receiver-setup-check.md",
+      "image": "ops/queue/images/logitech-g305-black-aa-battery-receiver-setup-check/cover.png",
+      "imageRights": "own diagram",
+      "factsObserved": "2026-11-26T19:22:00+09:00/2026-11-26T19:30:00+09:00",
+      "published": false,
+      "creatorSessionId": "ClaudeTakeover1920S",
+      "slot": "20261126-1920-shop",
+      "strategy": "amazon-deal-v1",
+      "linkPending": false,
+      "programEnabled": true
     }
   ]
 }

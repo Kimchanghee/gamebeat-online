@@ -1,0 +1,30 @@
+{
+  "images": [
+    {
+      "file": "cover.png",
+      "kind": "columns",
+      "kicker": "GAMEBEAT / ELGATO FACECAM MK.2",
+      "title": "Webcam plus port plus desk",
+      "columns": [
+        {
+          "title": "Elgato lists",
+          "accent": true,
+          "items": [
+            "USB 3.0 for uncompressed",
+            "Focus range 30-120 cm",
+            "No built-in microphone"
+          ]
+        },
+        {
+          "title": "Confirm yourself",
+          "items": [
+            "USB 2.0 = MJPEG only",
+            "No USB hub",
+            "Your port and audio"
+          ]
+        }
+      ],
+      "foot": "Elgato Facecam MK.2 pages, read 2026-11-26 · GameBeat diagram"
+    }
+  ]
+}

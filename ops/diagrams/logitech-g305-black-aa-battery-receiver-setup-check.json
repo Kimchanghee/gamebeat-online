@@ -1,0 +1,30 @@
+{
+  "images": [
+    {
+      "file": "cover.png",
+      "kind": "columns",
+      "kicker": "GAMEBEAT / LOGITECH G305",
+      "title": "Battery plus receiver plus hand",
+      "columns": [
+        {
+          "title": "Logitech lists",
+          "accent": true,
+          "items": [
+            "1 AA battery included",
+            "USB 2.0+ port, receiver",
+            "99 g with battery"
+          ]
+        },
+        {
+          "title": "Confirm yourself",
+          "items": [
+            "No Bluetooth listed",
+            "One onboard profile",
+            "Your hand and grip"
+          ]
+        }
+      ],
+      "foot": "Logitech G305 pages, read 2026-11-26 · GameBeat diagram"
+    }
+  ]
+}
