@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T10:05:00+09:00",
+  "updated": "2026-11-26T17:05:00+09:00",
   "note": "Prepared manuscripts only. Not published. Each needs: program enabled with real id in src/data/affiliates.json, exact-variant listing check, issued affiliate URL replacing AFFILIATE_URL_PENDING, link-check evidence file, publish time, image copied from ops/queue/images/<slug>/cover.png to public/images/picks/<slug>/cover.png, then the normal gate/publish path.",
   "items": [
     {
@@ -178,12 +178,14 @@
       "image": "ops/queue/images/elgato-4k-x-usb-port-pc-requirements-check/cover.png",
       "imageRights": "own diagram",
       "factsObserved": "2026-11-26T13:12:00+09:00/2026-11-26T13:22:00+09:00",
-      "published": false,
+      "published": true,
       "creatorSessionId": "ClaudeTakeover1300S",
       "slot": "20261126-1300-shop",
       "strategy": "amazon-deal-v1",
       "linkPending": false,
-      "programEnabled": true
+      "programEnabled": true,
+      "publishedAt": "2026-11-26T17:05:00+09:00",
+      "liveUrl": "https://gamebeat.online/picks/elgato-4k-x-usb-port-pc-requirements-check/"
     }
   ]
 }
