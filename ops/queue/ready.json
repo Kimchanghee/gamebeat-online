@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T04:37:03.602Z",
+  "updated": "2026-11-27T17:05:04+09:00",
   "note": "Prepared manuscripts only. Not published. Each needs: program enabled with real id in src/data/affiliates.json, exact-variant listing check, issued affiliate URL replacing AFFILIATE_URL_PENDING, link-check evidence file, publish time, image copied from ops/queue/images/<slug>/cover.png to public/images/picks/<slug>/cover.png, then the normal gate/publish path.",
   "items": [
     {
@@ -218,12 +218,14 @@
       "image": "ops/queue/images/logitech-g305-black-aa-battery-receiver-setup-check/cover.png",
       "imageRights": "own diagram",
       "factsObserved": "2026-11-26T19:22:00+09:00/2026-11-26T19:30:00+09:00",
-      "published": false,
+      "published": true,
       "creatorSessionId": "ClaudeTakeover1920S",
       "slot": "20261126-1920-shop",
       "strategy": "amazon-deal-v1",
       "linkPending": false,
-      "programEnabled": true
+      "programEnabled": true,
+      "publishedAt": "2026-11-27T17:05:04+09:00",
+      "liveUrl": "https://gamebeat.online/picks/logitech-g305-black-aa-battery-receiver-setup-check/"
     },
     {
       "slug": "pulsefire-haste2-wired-default-polling-profile-check",
