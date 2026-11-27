@@ -34,3 +34,5 @@ Search Console queries with impressions but no dedicated page (after 14 days of 
 | stream-deck-neo-eight-keys-pages-check | pick | queued | Elgato Stream Deck Neo; Amazon exact US variant verified 2026-11-15 |
 
 | jbl-quantum-100m2-comfort-microphone-check | pick | queued | JBL Quantum100M2 Black; existing source comparison rechecked21Nov; normal launchd only |
+
+| pulsefire-haste2-wired-default-polling-profile-check | pick | queued | Does the Black wired HyperX Pulsefire Haste 2 start at 8000Hz, and what should you check before buying? | 2026-11-27 SHOP13:00, own diagram, not published |

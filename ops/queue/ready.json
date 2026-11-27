@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T10:05:05+09:00",
+  "updated": "2026-11-27T04:37:03.602Z",
   "note": "Prepared manuscripts only. Not published. Each needs: program enabled with real id in src/data/affiliates.json, exact-variant listing check, issued affiliate URL replacing AFFILIATE_URL_PENDING, link-check evidence file, publish time, image copied from ops/queue/images/<slug>/cover.png to public/images/picks/<slug>/cover.png, then the normal gate/publish path.",
   "items": [
     {
@@ -224,6 +224,23 @@
       "strategy": "amazon-deal-v1",
       "linkPending": false,
       "programEnabled": true
+    },
+    {
+      "slug": "pulsefire-haste2-wired-default-polling-profile-check",
+      "program": "amazon",
+      "product": "HyperX Pulsefire Haste 2 Wired Gaming Mouse",
+      "variant": "Color: Black; Size: Wired; Style: Pulsefire Haste 2; manufacturer SKU 6N0A7AA",
+      "asin": "B0BX52PCJ5",
+      "source": "https://supportcenter.hyperx.com/articles/pulsefire-haste-2/hyperx-pulsefire-haste-2-specifications/68d691647579af534d677269",
+      "file": "ops/queue/pulsefire-haste2-wired-default-polling-profile-check.md",
+      "image": "ops/queue/images/pulsefire-haste2-wired-default-polling-profile-check/cover.png",
+      "imageRights": "own diagram",
+      "factsObserved": "2026-11-27T04:09:34.422Z/2026-11-27T04:16:59.843Z",
+      "published": false,
+      "creatorSessionId": "Aqecx68OX9WmMbNQ",
+      "slot": "20261127-1300-shop",
+      "dryRunPassedAt": "2026-11-27T04:36:33.517Z",
+      "dryRunReceipt": "rebuild-202610/_ops/game-publisher/runs/2026-11-27T04-36-33-517Z-dryrun.json"
     }
   ]
 }

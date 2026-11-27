@@ -1,0 +1,30 @@
+{
+  "images": [
+    {
+      "file": "cover.png",
+      "kind": "columns",
+      "kicker": "GAMEBEAT / BUYING CHECK",
+      "title": "Default is not the maximum",
+      "columns": [
+        {
+          "title": "HyperX lists",
+          "accent": true,
+          "items": [
+            "1000Hz default",
+            "Up to 8000Hz selectable",
+            "6 buttons, 1 profile"
+          ]
+        },
+        {
+          "title": "Confirm first",
+          "items": [
+            "Black WIRED, 6N0A7AA",
+            "USB-A cable route",
+            "Your software needs"
+          ]
+        }
+      ],
+      "foot": "Official maker pages, read 2026-11-27 · GameBeat diagram"
+    }
+  ]
+}
