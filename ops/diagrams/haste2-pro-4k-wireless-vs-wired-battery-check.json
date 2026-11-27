@@ -1,0 +1,30 @@
+{
+  "images": [
+    {
+      "file": "cover.png",
+      "kind": "columns",
+      "kicker": "GAMEBEAT / BUYING CHECK",
+      "title": "Connection changes the ceiling",
+      "columns": [
+        {
+          "title": "Maker maxima",
+          "accent": true,
+          "items": [
+            "2.4GHz: up to 4000Hz",
+            "Wired: up to 1000Hz",
+            "Bluetooth: up to 125Hz"
+          ]
+        },
+        {
+          "title": "Battery conditions",
+          "items": [
+            "1000Hz: up to 90 hours",
+            "4000Hz: up to 30 hours",
+            "Rated, not our test"
+          ]
+        }
+      ],
+      "foot": "Maker specifications, read 2026-11-27 · GameBeat diagram"
+    }
+  ]
+}

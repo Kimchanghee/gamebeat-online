@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T17:05:04+09:00",
+  "updated": "2026-11-27T10:49:07.754Z",
   "note": "Prepared manuscripts only. Not published. Each needs: program enabled with real id in src/data/affiliates.json, exact-variant listing check, issued affiliate URL replacing AFFILIATE_URL_PENDING, link-check evidence file, publish time, image copied from ops/queue/images/<slug>/cover.png to public/images/picks/<slug>/cover.png, then the normal gate/publish path.",
   "items": [
     {
@@ -243,6 +243,23 @@
       "slot": "20261127-1300-shop",
       "dryRunPassedAt": "2026-11-27T04:36:33.517Z",
       "dryRunReceipt": "rebuild-202610/_ops/game-publisher/runs/2026-11-27T04-36-33-517Z-dryrun.json"
+    },
+    {
+      "slug": "haste2-pro-4k-wireless-vs-wired-battery-check",
+      "program": "amazon",
+      "product": "HyperX Pulsefire Haste 2 Pro 4K Wireless Gaming Mouse",
+      "variant": "Grey / Wireless / Pulsefire Haste 2 Pro; HyperX Slate Gray A1KY5AA",
+      "asin": "B0DQWJDD1C",
+      "source": "https://hyperx.com/products/hyperx-pulsefire-haste-2-pro-4k-wireless-gaming-mouse?loc=US",
+      "file": "ops/queue/haste2-pro-4k-wireless-vs-wired-battery-check.md",
+      "image": "ops/queue/images/haste2-pro-4k-wireless-vs-wired-battery-check/cover.png",
+      "imageRights": "own diagram",
+      "factsObserved": "2026-11-27T10:28:07.101Z/2026-11-27T10:28:07.101Z",
+      "published": false,
+      "creatorSessionId": "eKQADbA5pZWqaBGa",
+      "slot": "20261127-1920-shop",
+      "dryRunPassedAt": "2026-11-27T10:48:05.112Z",
+      "dryRunReceipt": "rebuild-202610/_ops/game-publisher/runs/2026-11-27T10-48-05-112Z-dryrun.json"
     }
   ]
 }

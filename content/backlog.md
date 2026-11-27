@@ -36,3 +36,5 @@ Search Console queries with impressions but no dedicated page (after 14 days of 
 | jbl-quantum-100m2-comfort-microphone-check | pick | queued | JBL Quantum100M2 Black; existing source comparison rechecked21Nov; normal launchd only |
 
 | pulsefire-haste2-wired-default-polling-profile-check | pick | queued | Does the Black wired HyperX Pulsefire Haste 2 start at 8000Hz, and what should you check before buying? | 2026-11-27 SHOP13:00, own diagram, not published |
+
+| haste2-pro-4k-wireless-vs-wired-battery-check | pick | queued | Haste 2 Pro 4K: Does Wired Mode Keep the Top Polling Rate? | 2026-11-27 SHOP19:20; owned diagram; publication pending |
