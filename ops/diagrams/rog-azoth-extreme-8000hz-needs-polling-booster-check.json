@@ -1,0 +1,30 @@
+{
+  "images": [
+    {
+      "file": "cover.png",
+      "kind": "columns",
+      "kicker": "GAMEBEAT / BUYING CHECK",
+      "title": "8000 Hz needs the booster",
+      "columns": [
+        {
+          "title": "What ASUS lists",
+          "accent": true,
+          "items": [
+            "8000 Hz with Polling Rate Booster",
+            "Wired USB-C, 2.4 GHz, Bluetooth 5.1",
+            "Over 1600 h in 2.4 GHz mode"
+          ]
+        },
+        {
+          "title": "Check before ordering",
+          "items": [
+            "Snow Linear option selected",
+            "Spare USB port for booster",
+            "Budget for a premium board"
+          ]
+        }
+      ],
+      "foot": "Maker specifications, read 2026-11-28 · GameBeat diagram"
+    }
+  ]
+}

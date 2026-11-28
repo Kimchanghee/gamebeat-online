@@ -285,6 +285,23 @@
       "slot": "20261128-1300-shop",
       "dryRunPassedAt": "2026-11-28T04:35:36.331Z",
       "dryRunReceipt": "rebuild-202610/_ops/game-publisher/runs/2026-11-28T04-35-36-331Z-dryrun.json"
+    },
+    {
+      "slug": "rog-azoth-extreme-8000hz-needs-polling-booster-check",
+      "program": "amazon",
+      "product": "ASUS ROG Azoth Extreme Wireless Mechanical Gaming Keyboard (75%, ROG NX Snow Linear, PBT keycaps)",
+      "variant": "Black / Azoth Extreme / ROG NX Snow Linear (mechanical) / PBT keycap",
+      "asin": "B0D45ZHYZJ",
+      "source": "https://rog.asus.com/keyboards/keyboards/pbt-keycaps/rog-azoth-extreme",
+      "file": "ops/queue/rog-azoth-extreme-8000hz-needs-polling-booster-check.md",
+      "image": "ops/queue/images/rog-azoth-extreme-8000hz-needs-polling-booster-check/cover.png",
+      "imageRights": "own diagram",
+      "factsObserved": "2026-11-28T10:26:35.480Z/2026-11-28T10:26:35.480Z",
+      "published": false,
+      "creatorSessionId": "ClaudeTakeover1920S",
+      "slot": "20261128-1920-shop",
+      "dryRunPassedAt": "2026-11-28T10:38:51.085Z",
+      "dryRunReceipt": "rebuild-202610/_ops/game-publisher/runs/2026-11-28T10-38-51-085Z-dryrun.json"
     }
   ]
 }

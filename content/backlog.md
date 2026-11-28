@@ -40,3 +40,5 @@ Search Console queries with impressions but no dedicated page (after 14 days of 
 | haste2-pro-4k-wireless-vs-wired-battery-check | pick | queued | Haste 2 Pro 4K: Does Wired Mode Keep the Top Polling Rate? | 2026-11-27 SHOP19:20; owned diagram; publication pending |
 
 | naga-v2-hyperspeed-aa-fixed-thumb-grid-check | pick | queued | Naga V2 HyperSpeed: AA Power or a Rechargeable Mouse? | SHOP 2026-11-28 13:00; inspected own diagram; exact native ASIN; not published |
+
+| rog-azoth-extreme-8000hz-needs-polling-booster-check | pick | queued | ROG Azoth Extreme: Does 8000 Hz Polling Come Built In? | SHOP 2026-11-28 19:20; inspected own diagram; exact native ASIN; not published |
