@@ -1,0 +1,30 @@
+{
+  "images": [
+    {
+      "file": "cover.png",
+      "kind": "columns",
+      "kicker": "GAMEBEAT / BUYING CHECK",
+      "title": "HyperSpeed is not V2 Pro",
+      "columns": [
+        {
+          "title": "This HyperSpeed model",
+          "accent": true,
+          "items": [
+            "AA battery power",
+            "Fixed 12-button thumb grid",
+            "19 programmable controls"
+          ]
+        },
+        {
+          "title": "Plan the connection",
+          "items": [
+            "2.4GHz USB receiver",
+            "Bluetooth alternative",
+            "No rechargeable-cell claim"
+          ]
+        }
+      ],
+      "foot": "Maker specifications, read 2026-11-28 · GameBeat diagram"
+    }
+  ]
+}
