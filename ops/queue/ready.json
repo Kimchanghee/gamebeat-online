@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T10:05:00+09:00",
+  "updated": "2026-11-28T17:05:02+09:00",
   "note": "Prepared manuscripts only. Not published. Each needs: program enabled with real id in src/data/affiliates.json, exact-variant listing check, issued affiliate URL replacing AFFILIATE_URL_PENDING, link-check evidence file, publish time, image copied from ops/queue/images/<slug>/cover.png to public/images/picks/<slug>/cover.png, then the normal gate/publish path.",
   "items": [
     {
@@ -259,11 +259,15 @@
       "image": "ops/queue/images/haste2-pro-4k-wireless-vs-wired-battery-check/cover.png",
       "imageRights": "own diagram",
       "factsObserved": "2026-11-27T10:28:07.101Z/2026-11-27T10:28:07.101Z",
-      "published": false,
+      "published": true,
       "creatorSessionId": "eKQADbA5pZWqaBGa",
       "slot": "20261127-1920-shop",
       "dryRunPassedAt": "2026-11-27T10:48:05.112Z",
-      "dryRunReceipt": "rebuild-202610/_ops/game-publisher/runs/2026-11-27T10-48-05-112Z-dryrun.json"
+      "dryRunReceipt": "rebuild-202610/_ops/game-publisher/runs/2026-11-27T10-48-05-112Z-dryrun.json",
+      "publishedAt": "2026-11-28T17:05:02+09:00",
+      "liveUrl": "https://gamebeat.online/picks/haste2-pro-4k-wireless-vs-wired-battery-check/",
+      "linkPending": false,
+      "programEnabled": true
     },
     {
       "slug": "naga-v2-hyperspeed-aa-fixed-thumb-grid-check",
